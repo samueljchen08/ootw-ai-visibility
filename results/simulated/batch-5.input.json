@@ -1,0 +1,66 @@
+[
+  {
+    "id": "design-build-metrowest-best",
+    "text": "best design-build remodeling firms in MetroWest Massachusetts",
+    "service": "design-build",
+    "geo": "MetroWest",
+    "intent": "best",
+    "tier": "core"
+  },
+  {
+    "id": "kitchen-lexington-best",
+    "text": "best kitchen remodeling design-build firms in Lexington MA",
+    "service": "kitchen",
+    "geo": "Lexington",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-newton-best",
+    "text": "best bathroom remodeling companies in Newton MA",
+    "service": "bath",
+    "geo": "Newton",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-newton-hire",
+    "text": "who should I hire for a home addition in Newton MA",
+    "service": "addition",
+    "geo": "Newton",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-boston-hire",
+    "text": "who should I hire for a home addition in the Boston area",
+    "service": "addition",
+    "geo": "Boston",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-reading-best",
+    "text": "best design-build remodeling firms in Reading MA",
+    "service": "design-build",
+    "geo": "Reading",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "kitchen-newton-cost",
+    "text": "how much does a kitchen remodel cost in Newton MA and which design-build firms do them",
+    "service": "kitchen",
+    "geo": "Newton",
+    "intent": "cost",
+    "tier": "breadth"
+  },
+  {
+    "id": "brand-good-firm",
+    "text": "Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm",
+    "service": "brand",
+    "geo": "n/a",
+    "intent": "brand",
+    "tier": "breadth"
+  }
+]

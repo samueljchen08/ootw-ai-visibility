@@ -1,0 +1,66 @@
+[
+  {
+    "id": "addition-needham-hire",
+    "text": "who should I hire for a home addition in Needham MA",
+    "service": "addition",
+    "geo": "Needham",
+    "intent": "hire",
+    "tier": "core"
+  },
+  {
+    "id": "kitchen-wellesley-best",
+    "text": "best kitchen remodeling design-build firms in Wellesley MA",
+    "service": "kitchen",
+    "geo": "Wellesley",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "kitchen-metrowest-best",
+    "text": "best kitchen remodeling design-build firms in MetroWest Massachusetts",
+    "service": "kitchen",
+    "geo": "MetroWest",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-boston-best",
+    "text": "best bathroom remodeling companies in the Boston area",
+    "service": "bath",
+    "geo": "Boston",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-reading-hire",
+    "text": "who should I hire for a home addition in Reading MA",
+    "service": "addition",
+    "geo": "Reading",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-needham-best",
+    "text": "best design-build remodeling firms in Needham MA",
+    "service": "design-build",
+    "geo": "Needham",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-concord-hire",
+    "text": "who should I hire for a whole-house renovation in Concord MA",
+    "service": "design-build",
+    "geo": "Concord",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "cabinetry-boston-best",
+    "text": "custom cabinetry and kitchen remodeling company in the Boston area",
+    "service": "cabinetry",
+    "geo": "Boston",
+    "intent": "best",
+    "tier": "breadth"
+  }
+]

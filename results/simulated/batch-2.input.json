@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kitchen-newton-best",
+    "text": "best kitchen remodeling design-build firms in Newton MA",
+    "service": "kitchen",
+    "geo": "Newton",
+    "intent": "best",
+    "tier": "core"
+  },
+  {
+    "id": "design-build-lexington-hire",
+    "text": "recommend a design-build remodeler along Route 128 near Lexington MA",
+    "service": "design-build",
+    "geo": "Lexington",
+    "intent": "hire",
+    "tier": "core"
+  },
+  {
+    "id": "kitchen-belmont-best",
+    "text": "best kitchen remodeling design-build firms in Belmont MA",
+    "service": "kitchen",
+    "geo": "Belmont",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-reading-best",
+    "text": "best bathroom remodeling companies in Reading MA",
+    "service": "bath",
+    "geo": "Reading",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-lexington-hire",
+    "text": "who should I hire for a home addition in Lexington MA",
+    "service": "addition",
+    "geo": "Lexington",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-newton-best",
+    "text": "best design-build remodeling firms in Newton MA",
+    "service": "design-build",
+    "geo": "Newton",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-belmont-hire",
+    "text": "who should I hire for a whole-house renovation in Belmont MA",
+    "service": "design-build",
+    "geo": "Belmont",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-wellesley-cost",
+    "text": "how much does a bathroom remodel cost in Wellesley MA and who are the best contractors",
+    "service": "bath",
+    "geo": "Wellesley",
+    "intent": "cost",
+    "tier": "breadth"
+  }
+]

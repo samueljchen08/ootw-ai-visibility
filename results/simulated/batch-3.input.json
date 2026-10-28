@@ -1,0 +1,66 @@
+[
+  {
+    "id": "bath-wellesley-best",
+    "text": "best bathroom remodeling companies in Wellesley MA",
+    "service": "bath",
+    "geo": "Wellesley",
+    "intent": "best",
+    "tier": "core"
+  },
+  {
+    "id": "brand-brand",
+    "text": "Out of the Woods Construction Waltham MA reviews",
+    "service": "brand",
+    "geo": "n/a",
+    "intent": "brand",
+    "tier": "core"
+  },
+  {
+    "id": "kitchen-waltham-best",
+    "text": "best kitchen remodeling design-build firms in Waltham MA",
+    "service": "kitchen",
+    "geo": "Waltham",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-weston-best",
+    "text": "best bathroom remodeling companies in Weston MA",
+    "service": "bath",
+    "geo": "Weston",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-concord-hire",
+    "text": "who should I hire for a home addition in Concord MA",
+    "service": "addition",
+    "geo": "Concord",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-wellesley-best",
+    "text": "best design-build remodeling firms in Wellesley MA",
+    "service": "design-build",
+    "geo": "Wellesley",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-weston-hire",
+    "text": "who should I hire for a whole-house renovation in Weston MA",
+    "service": "design-build",
+    "geo": "Weston",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-needham-cost",
+    "text": "how much does a home addition cost in Needham MA and which firms should I consider",
+    "service": "addition",
+    "geo": "Needham",
+    "intent": "cost",
+    "tier": "breadth"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kitchen-boston-best",
+    "text": "best kitchen remodeling design-build firms in the Boston area",
+    "service": "kitchen",
+    "geo": "Boston",
+    "intent": "best",
+    "tier": "core"
+  },
+  {
+    "id": "design-build-waltham-best",
+    "text": "best design-build remodeling firms in Waltham MA",
+    "service": "design-build",
+    "geo": "Waltham",
+    "intent": "best",
+    "tier": "core"
+  },
+  {
+    "id": "kitchen-arlington-best",
+    "text": "best kitchen remodeling design-build firms in Arlington MA",
+    "service": "kitchen",
+    "geo": "Arlington",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "bath-needham-best",
+    "text": "best bathroom remodeling companies in Needham MA",
+    "service": "bath",
+    "geo": "Needham",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "addition-wellesley-hire",
+    "text": "who should I hire for a home addition in Wellesley MA",
+    "service": "addition",
+    "geo": "Wellesley",
+    "intent": "hire",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-boston-best",
+    "text": "best design-build remodeling firms in the Boston area",
+    "service": "design-build",
+    "geo": "Boston",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "design-build-arlington-best",
+    "text": "best design-build remodeling firms in Arlington MA",
+    "service": "design-build",
+    "geo": "Arlington",
+    "intent": "best",
+    "tier": "breadth"
+  },
+  {
+    "id": "kitchen-waltham-cost",
+    "text": "how much does a kitchen remodel cost in Waltham MA and which design-build firms do them",
+    "service": "kitchen",
+    "geo": "Waltham",
+    "intent": "cost",
+    "tier": "breadth"
+  }
+]
