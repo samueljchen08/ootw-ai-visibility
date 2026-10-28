@@ -1,0 +1,6 @@
+Below is a leaderboard of remodeling firms that AI answer engines recommended for Boston-area and MetroWest design-build queries (kitchens, baths, additions, whole-house). For the top {{N}} firms (skip any that are directories, national chains, or not actual remodeling firms), research each with WebSearch and WebFetch and record: the town they are based in; what the engines or the web credit them for (awards, press, specialties); whether their website has dedicated pages per service (kitchen, bath, additions) and per town or service area; their review footprint (Houzz/Google counts if visible); and the single most notable signal they have that Out of the Woods Construction & Cabinetry (Waltham, outofthewoodsconstruction.com) appears to lack. Keep each value to one or two sentences. Do not guess; write "not visible" where you cannot confirm.
+
+Write a JSON list to {{OUTPUT_PATH}} using the Write tool, one object per firm with keys exactly: firm, town, what_engines_credit, service_pages, town_pages, review_footprint, awards_press, notable_signal_ootw_lacks. All values are strings. Output nothing else to the file. Reply with one line when done.
+
+Leaderboard (firm, mentions across answers, average position):
+{{LEADERBOARD_JSON}}
