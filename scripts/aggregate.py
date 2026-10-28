@@ -133,9 +133,9 @@ def build_report(summary, queries, records, site, narrative_dir="report/narrativ
            _table("Intent", summary["by_intent"]), ""]
     md += ["## 4. What engines say about Out of the Woods", ""]
     if summary["ootw_quotes"]:
-        md += ["| Query | Engine | Rank | How OOTW was described |", "|---|---|---|---|"]
+        md += ["| Query | Engine (rank) | How OOTW was described |", "|---|---|---|"]
         for qt in summary["ootw_quotes"]:
-            md.append(f"| {qt['query_text']} | {qt['engine']} | {qt['rank']} | {_cell(qt['description'] or '')} |")
+            md.append(f"| {qt['query_text']} | {qt['engine']} ({qt['rank']}) | {_cell(qt['description'] or '')} |")
     else:
         md.append("Out of the Woods was not mentioned in any captured answer.")
     md += ["", "## 5. Who wins instead and why", "",

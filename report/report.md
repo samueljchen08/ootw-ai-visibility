@@ -75,11 +75,11 @@ Prepared 2026-10-28 for Dave. Boston-area and MetroWest design-build remodeling.
 
 ## 4. What engines say about Out of the Woods
 
-| Query | Engine | Rank | How OOTW was described |
-|---|---|---|---|
-| Out of the Woods Construction Waltham MA reviews | simulated | 1 | a design-build residential remodeling company based in Waltham, MA, founded in 1992, that handles renovations, additions, kitchens, baths, custom woodworking and cabinetry across Greater Boston |
-| Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm | simulated | 1 | a long-established Waltham design/build residential remodeling firm (260 Bear Hill Rd., Suite 201) founded in 1992 and led by president Greg Antonioli |
-| Out of the Woods Construction Waltham MA reviews | google-ai-mode | 1 | holds an overall highly positive reputation online, generally maintaining a perfect 5 out of 5-star rating across several review platforms; customers praise meticulous planning, transparent design-build process, and high-quality craftsmanship, with a very limited number of critical reviews |
+| Query | Engine (rank) | How OOTW was described |
+|---|---|---|
+| Out of the Woods Construction Waltham MA reviews | simulated (1) | a design-build residential remodeling company based in Waltham, MA, founded in 1992, that handles renovations, additions, kitchens, baths, custom woodworking and cabinetry across Greater Boston |
+| Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm | simulated (1) | a long-established Waltham design/build residential remodeling firm (260 Bear Hill Rd., Suite 201) founded in 1992 and led by president Greg Antonioli |
+| Out of the Woods Construction Waltham MA reviews | google-ai-mode (1) | holds an overall highly positive reputation online, generally maintaining a perfect 5 out of 5-star rating across several review platforms; customers praise meticulous planning, transparent design-build process, and high-quality craftsmanship, with a very limited number of critical reviews |
 
 ## 5. Who wins instead and why
 
