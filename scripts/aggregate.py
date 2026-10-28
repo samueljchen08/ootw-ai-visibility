@@ -30,6 +30,8 @@ def load_records(results_dir="results"):
         for r in _load(path):
             r.setdefault("engine", "simulated"); recs.append(r)
     for path in sorted(glob.glob(os.path.join(results_dir, "real", "*", "*.json"))):
+        if path.endswith(".raw.json"):
+            continue
         engine = os.path.basename(os.path.dirname(path))
         for r in _load(path):
             r.setdefault("engine", engine); recs.append(r)

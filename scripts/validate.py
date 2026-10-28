@@ -58,6 +58,8 @@ def main(paths):
     bad = 0
     for pattern in paths:
         for path in sorted(glob.glob(pattern)):
+            if path.endswith((".input.json", ".raw.json")):
+                continue
             res = validate_file(path, known)
             for e in res["errors"]:
                 print("ERROR", e)

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "kitchen-boston-best",
+  "text": "best kitchen remodeling design-build firms in the Boston area",
+  "service": "kitchen",
+  "geo": "Boston",
+  "intent": "best",
+  "tier": "core"
+ },
+ {
+  "id": "kitchen-newton-best",
+  "text": "best kitchen remodeling design-build firms in Newton MA",
+  "service": "kitchen",
+  "geo": "Newton",
+  "intent": "best",
+  "tier": "core"
+ },
+ {
+  "id": "bath-wellesley-best",
+  "text": "best bathroom remodeling companies in Wellesley MA",
+  "service": "bath",
+  "geo": "Wellesley",
+  "intent": "best",
+  "tier": "core"
+ },
+ {
+  "id": "addition-needham-hire",
+  "text": "who should I hire for a home addition in Needham MA",
+  "service": "addition",
+  "geo": "Needham",
+  "intent": "hire",
+  "tier": "core"
+ },
+ {
+  "id": "design-build-metrowest-best",
+  "text": "best design-build remodeling firms in MetroWest Massachusetts",
+  "service": "design-build",
+  "geo": "MetroWest",
+  "intent": "best",
+  "tier": "core"
+ },
+ {
+  "id": "design-build-waltham-best",
+  "text": "best design-build remodeling firms in Waltham MA",
+  "service": "design-build",
+  "geo": "Waltham",
+  "intent": "best",
+  "tier": "core"
+ },
+ {
+  "id": "design-build-lexington-hire",
+  "text": "recommend a design-build remodeler along Route 128 near Lexington MA",
+  "service": "design-build",
+  "geo": "Lexington",
+  "intent": "hire",
+  "tier": "core"
+ },
+ {
+  "id": "brand-brand",
+  "text": "Out of the Woods Construction Waltham MA reviews",
+  "service": "brand",
+  "geo": "n/a",
+  "intent": "brand",
+  "tier": "core"
+ }
+]

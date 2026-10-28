@@ -1,0 +1,156 @@
+[
+  {
+    "query_id": "bath-wellesley-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Wellesley has a deep bench of bathroom remodelers, and the most consistent names across Houzz, Yelp and firm websites are these:\n\n1. RemodelWerks LLC – an 8x Best of Houzz design-build firm rated 4.9/5 on 54 reviews, with roughly 38 Wellesley-area projects on its profile.\n2. New Era Builders Inc – 5.0/5 on 51 Houzz reviews; a kitchen-and-bath specialist with extensive Wellesley-area work.\n3. Cove Bath – a Wellesley-based boutique bathroom-only company that advertises fixed pricing and 1-2 week timelines for Boston, Newton and MetroWest towns.\n4. JM Construction – a MetroWest design-build firm with a dedicated Wellesley bathroom page covering design, permitting and construction.\n5. Refined Renovations – a 20-year design-build firm that recently opened a showroom in Wellesley; one team handles concept through installation.\n6. Colony Home Improvement – 40+ years in Massachusetts, offering design-build kitchen and bath remodeling in Wellesley.\n\nMost of what surfaces for this query is directory listings (Houzz, Yelp, Angi, HomeAdvisor), so verify current reviews and get at least three bids. Cove Bath is the only firm that is actually headquartered in Wellesley; the others are regional firms that serve the town.",
+    "firms_named": ["RemodelWerks LLC", "New Era Builders Inc", "Cove Bath", "JM Construction", "Refined Renovations", "Colony Home Improvement"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/wellesley-ma-us-project-type-bathroom-remodeling-probr1-bo~t_11825~r_4954738~sv_29156?fi=30",
+      "https://covebath.com/",
+      "https://www.jmconstructionco.com/bathroom-remodeling-wellesley-lp/",
+      "https://www.refinedren.com/service-areas/wellesley-ma",
+      "https://colonyhome.com/bathroom-and-kitchen-remodeling-in-wellesley-ma/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, Yelp, Angi, HomeAdvisor dominate); firm names drawn from Houzz snippets and firms' own Wellesley landing pages. Out of the Woods did not appear in any result."
+  },
+  {
+    "query_id": "brand-brand",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Out of the Woods Construction & Cabinetry, Inc. is a design-build residential remodeling company based in Waltham, MA (260 Bear Hill Rd, Suite 201; also listed at 1347 Main St). It was founded in 1992, incorporated in 1994, and is led by president Gregory Antonioli. It handles renovations, additions, kitchens, baths, custom woodworking and cabinetry across Greater Boston.\n\nWhat the reviews say:\n- BBB: A+ rating, 34 years in business, zero complaints in the last three years, but no BBB customer reviews on file and not BBB-accredited.\n- Yelp: 3.0 stars on just 2 reviews. One 2014 reviewer called the owner slow and deceptive and alleged a pricing bait-and-switch; the other is positive.\n- Birdeye: 5 stars, 1 review.\n- Nextdoor: positive neighbor comments, including a full kitchen gut and half-bath addition finished on schedule in 10 weeks through three snowstorms with no budget surprises, and another neighbor who did two large projects and praised the process.\n- The firm's own testimonials page has nine positive client stories (additions, kitchens, baths, built-ins), e.g. 'top notch in every way; responsive, thorough, easy to work with.'\n\nBottom line: the public review footprint is small. The one negative Yelp review is over a decade old, while the BBB record and recent Nextdoor comments are clean and positive. Ask for recent references and check the firm's Houzz/Google profiles, which did not surface in search results.",
+    "firms_named": ["Out of the Woods Construction & Cabinetry"],
+    "ootw_mentioned": true,
+    "ootw_rank": 1,
+    "ootw_description": "a design-build residential remodeling company based in Waltham, MA, founded in 1992, that handles renovations, additions, kitchens, baths, custom woodworking and cabinetry across Greater Boston",
+    "sources_cited": [
+      "https://www.bbb.org/us/ma/waltham/profile/general-contractor/out-of-the-woods-construction-cabinetry-inc-0021-56021",
+      "https://www.yelp.com/biz/out-of-the-woods-construction-and-cabinetry-waltham",
+      "https://reviews.birdeye.com/out-of-the-woods-construction-cabinetry-inc-374106144",
+      "https://nextdoor.com/pages/out-of-the-woods-construction-cabinetry-inc-arlington-ma-1/",
+      "https://www.outofthewoodsconstruction.com/testimonials"
+    ],
+    "ootw_site_cited": true,
+    "notes": "Brand query. Review footprint is thin: BBB A+ with no reviews, Yelp 3.0 on 2 reviews (one negative from 2014), Birdeye 1 review, Nextdoor positive. Yelp page returned 403 on fetch; relied on search snippet. No Houzz or Google review page surfaced."
+  },
+  {
+    "query_id": "kitchen-waltham-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "For a design-build kitchen remodel in Waltham, the firms that show up most often with strong review counts are:\n\n1. Feinmann, Inc. – 4.9/5 on 81 Houzz reviews, 39 years in business, Best of Houzz 2013-2024, with over 100 Waltham-area projects on its profile.\n2. New England Design & Construction (NEDC) – 5.0/5 on 46 reviews and a 10x Best of Houzz design-build firm serving Greater Boston.\n3. BB&R Design-Build – 4.9/5 on 33 reviews, Best of Houzz, kitchen-and-bath design-build with about 60 Waltham-area projects.\n4. Steveworks LLC – 5.0/5 on 64 reviews, 10x Best of Houzz, kitchen and bath remodeling.\n5. Tom Curren Companies – 4.7/5 on 71 reviews, 36+ years, a Newton-based design-build firm with a Waltham service page and 79 local projects.\n6. DLM Remodeling – a Waltham-based kitchen remodeler handling demolition through cabinets, counters and flooring.\n\nNote that most of these are regional Boston-area design-build firms that serve Waltham rather than firms headquartered there; DLM Remodeling is one of the few local Waltham shops that appeared. Results were dominated by Houzz, Yelp, Angi and HomeGuide directory pages, so check recent reviews and confirm each firm offers in-house design before shortlisting.",
+    "firms_named": ["Feinmann, Inc.", "New England Design & Construction", "BB&R Design-Build", "Steveworks LLC", "Tom Curren Companies", "DLM Remodeling"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/kitchen-remodelers/waltham-ma-us-probr0-bo~t_34334~r_4954380",
+      "https://www.houzz.com/professionals/design-build/waltham-ma-us-probr0-bo~t_11793~r_4954380",
+      "https://tomcurrencompanies.com/service-area/waltham",
+      "https://www.dlm-remodeling.com/kitchen-remodeling/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy; Houzz design-build and kitchen listings supplied the ranked firms. Notably, Out of the Woods (Waltham-headquartered) did not appear in any Waltham kitchen or design-build result, including the Houzz Waltham design-build list snippet."
+  },
+  {
+    "query_id": "bath-weston-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Weston is served mostly by regional MetroWest and Boston-area remodelers rather than firms based in town. The strongest-reviewed options that surfaced:\n\n1. New Era Builders Inc – 5.0/5 on about 50 Houzz reviews, kitchen-and-bath specialist with 36 Weston-area projects.\n2. Molla Builders LLC – 5.0/5 on 60 reviews, Best of Houzz; praised for a bathroom shower rebuild and help navigating insurance and material selection.\n3. Kitchen Associates – 5.0/5 on 23 reviews, Best of Houzz, 31 Weston-area projects.\n4. Yusra Design Build – 5.0/5 on 27 reviews, Best of Houzz, a Middlesex County design-build group with 20 Weston projects.\n5. Quinlan and Company – Kitchen & Bath Works – 4.9/5 on 60 reviews, 29 years in business, authorized Kohler dealer.\n6. Grant Associates – an owner-operated contractor focused on Weston, Wellesley and Wayland bathrooms, emphasizing clear communication and straightforward pricing.\n\nTom Curren Companies, JM Construction, WR Builders and Steveworks also list Weston service pages with solid reviews. The results here were heavily Houzz/Yelp/Angi directory pages plus contractor landing pages, so treat ratings as a starting point and request references for Weston-scale projects.",
+    "firms_named": ["New Era Builders Inc", "Molla Builders LLC", "Kitchen Associates", "Yusra Design Build", "Quinlan and Company – Kitchen & Bath Works", "Grant Associates", "Tom Curren Companies", "JM Construction", "WR Builders Inc.", "Steveworks LLC"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/weston-ma-us-probr0-bo~t_11825~r_4955259",
+      "https://www.houzz.com/professionals/design-build/weston-ma-us-probr0-bo~t_11793~r_4955259",
+      "https://www.grantassociate.com/bathroom-remodel.html",
+      "https://tomcurrencompanies.com/service-area/weston",
+      "https://www.wrbuildersinc.com/bathroom-remodeling-weston-massachusetts/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, Yelp, homeyou, Angi) plus many SEO landing pages. Jacuzzi Bath Remodel surfaced but was omitted as a franchise tub/shower installer rather than a remodeling firm. Out of the Woods absent."
+  },
+  {
+    "query_id": "addition-concord-hire",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "For a home addition in Concord, you'll generally want a design-build firm that can handle Concord's historic-district reviews and zoning as well as construction. Based on what surfaces in search:\n\n1. Howell Custom Building Group – a Lawrence-based builder with a dedicated Concord additions/renovations page and a long track record of high-end work in the area.\n2. Concord Build – a local design-build team; a client praised a garage and porch addition for 'attention to detail and incredible craftsmanship.'\n3. New England Design & Construction (NEDC) – 5.0/5 on Houzz, award-winning Greater Boston design-build firm with 58 Concord-area projects.\n4. MacKenzie Design Build – 5.0/5 on 41 Houzz reviews, design-build additions and renovations.\n5. PionArch LLC – an architect-led design-build company that builds additions in Concord and nearby towns.\n6. Pondview Construction – 20 years building additions for Concord-area homeowners.\n\nJM Construction, Molla Builders, BB&R Design-Build, RemodelWerks and WR Builders also appeared with strong reviews. Much of what comes back is Houzz, BuildZoom, Yelp and HomeAdvisor directory listings, so shortlist 3-4 firms, ask for Concord-specific references, and confirm who handles permitting and historic commission filings.",
+    "firms_named": ["Howell Custom Building Group", "Concord Build", "New England Design & Construction", "MacKenzie Design Build", "PionArch LLC", "Pondview Construction", "JM Construction", "Molla Builders LLC", "BB&R Design-Build", "RemodelWerks LLC", "WR Builders Inc."],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://howellcustombuild.com/concord-ma/home-additions-renovations/",
+      "https://www.concordbuild.com/",
+      "https://www.houzz.com/professionals/home-builders/concord-ma-us-project-type-home-additions-probr1-bo~t_11823~r_4933743~sv_29340",
+      "https://pionarch.com/service-area/home-additions-concord-ma/",
+      "https://pondviewconstruction.com/service-area/home-additions-contractors-concord-ma/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Mix of contractor landing pages and Houzz/BuildZoom/Yelp directories. Reasonably rich results with many named firms. Out of the Woods absent."
+  },
+  {
+    "query_id": "design-build-wellesley-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Wellesley has several well-reviewed design-build remodelers, including a few based in town:\n\n1. Design Plus Construction Corp. – an award-winning high-end renovation firm located in Wellesley with more than 25 years of experience.\n2. Refined Renovations – a 20-year design-build firm with 53 five-star Houzz reviews that recently opened a design studio/showroom in Wellesley; kitchens, additions and whole-home renovations.\n3. New England Design & Construction (NEDC) – 5.0/5 on Houzz with 46 reviews, architect-led design-build; the firm cites an average 3% budget change rate once projects start.\n4. Essex Restoration – Gold PRISM award-winning remodeler that has built and added onto Greater Boston homes since 1995, with a Wellesley service page.\n5. BB&R Design-Build – 4.9/5 on 33 reviews; clients cite 'professionalism, communication and integrity' on Wellesley kitchen work.\n6. Harvey Design Remodeling – award-winning design/build firm serving Wellesley for full-home remodels, kitchens and baths.\n\nOther names that surfaced include Capstone Design Partners, Attitash Builders (luxury custom/tear-down rebuilds), Genesis Construction and Development, Steveworks and Boston Premier Remodeling. GuildQuality and Houzz directory pages dominate the results, so use them to compare verified review volume before interviewing firms.",
+    "firms_named": ["Design Plus Construction Corp.", "Refined Renovations", "New England Design & Construction", "Essex Restoration", "BB&R Design-Build", "Harvey Design Remodeling", "Capstone Design Partners", "Attitash Builders", "Genesis Construction and Development", "Steveworks LLC", "Boston Premier Remodeling LLC"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/wellesley-ma-us-probr0-bo~t_11793~r_4954738",
+      "https://www.houzz.com/professionals/design-build-firms/design-plus-construction-corp-pfvwus-pf~1797361118",
+      "https://www.refinedren.com/showroom-wellesley-ma",
+      "https://www.nedesignbuild.com/home-remodeling-wellesley/",
+      "https://www.essexrestoration.com/areas-we-serve/wellesley-home-remodeling-contractors/",
+      "https://www.bbrdesignbuild.com/nearme/kitchen-remodels-wellesley-ma"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, GuildQuality, Yelp) plus firm landing pages. Rich set of named firms. Out of the Woods absent."
+  },
+  {
+    "query_id": "design-build-weston-hire",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "A whole-house renovation in Weston is a large, high-end project, so look for a design-build firm with in-house design, a track record on Weston-scale homes, and strong verified reviews. Firms that surface most for Weston:\n\n1. Platt Builders – remodeling kitchens, baths, whole homes and custom homes in Weston since 1992, with a dedicated Weston service page.\n2. Weston Design/Build – a full-service design and construction firm actually located in Weston (02493).\n3. New England Design & Construction (NEDC) – 5.0/5 on 47 Houzz reviews, award-winning design-build with 58 Weston-area projects.\n4. Essex Restoration – Gold PRISM award winner building custom homes, whole-home remodels and additions throughout Weston and surrounding towns.\n5. Concept Building – specializes in new construction, large-scale renovations and whole-house remodels in Weston, Newton and Wellesley.\n6. Molla Builders LLC – 5.0/5 on 60 reviews; handles everything up to full gut remodels.\n\nAlso worth a look: JM Construction, Harvey Design Remodeling, Genesis Construction and Development, Walsh Builders and New Era Builders. Get 3-4 proposals, ask each to walk you through a comparable completed Weston project, and confirm how design fees, allowances and change orders are handled.",
+    "firms_named": ["Platt Builders", "Weston Design/Build", "New England Design & Construction", "Essex Restoration", "Concept Building", "Molla Builders LLC", "JM Construction", "Harvey Design Remodeling", "Genesis Construction and Development", "Walsh Builders", "New Era Builders Inc"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.plattbuilders.com/areas-we-server/weston-ma",
+      "https://www.houzz.com/professionals/design-build-firms/weston-design-build-pfvwus-pf~505634880",
+      "https://www.houzz.com/professionals/design-build/weston-ma-us-probr0-bo~t_11793~r_4955259",
+      "https://www.essexrestoration.com/areas-we-serve/weston-home-remodeling-contractors/",
+      "https://conceptbuildinginc.com/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Mix of firm landing pages and Houzz/BuildZoom/HomeAdvisor directories; many SEO 'Weston' service pages from regional contractors. Out of the Woods absent."
+  },
+  {
+    "query_id": "addition-needham-cost",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Cost: In the Greater Boston market, including Needham, home additions typically run $150-$400 per square foot, with most projects landing between $50,000 and $250,000 depending on room type and finishes. Rough ranges from Massachusetts builders: bump-outs $25,000-$50,000; a bedroom addition $50,000-$100,000; a ~300 sq ft family room $45,000-$120,000; a kitchen addition/expansion $60,000-$150,000; an in-law suite $100,000-$200,000+. Second-story additions are pricier, roughly $300-$700+ per square foot. Kitchens and in-law suites cost the most because of plumbing and electrical. One aggregator lists a 'fair price' of about $44,000-$65,000 for Needham, but that reflects small projects.\n\nFirms to consider:\n1. Tibma Design/Build – Needham-based design-build firm with strong GuildQuality reviews for planning and subcontractor coordination.\n2. Colony Home Improvement – 40+ years in MA, with Needham-specific pages for two-story and whole-floor additions.\n3. New England Design & Construction – 5.0/5 on 47 Houzz reviews, Best of Houzz design-build.\n4. Morse Constructions – Boston-area design-build, 4.8/5 on 51 reviews.\n5. MacKenzie Design Build – 4.9/5 on 39 reviews.\n6. PionArch LLC – architect-led design-build building additions in Needham.\n\nGet 3 itemized bids; cost pages here come from contractors' blogs, not Needham-specific data.",
+    "firms_named": ["Tibma Design/Build", "Colony Home Improvement", "New England Design & Construction", "Morse Constructions", "MacKenzie Design Build", "PionArch LLC"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.kneelandconstruction.com/post/how-much-does-a-home-addition-cost-in-massachusetts",
+      "https://www.kneelandconstruction.com/post/how-much-does-a-second-story-addition-cost-in-massachusetts",
+      "https://www.homeyou.com/ma/home-additions-needham-costs",
+      "https://colonyhome.com/our-services/home-addition-builder-in-needham/",
+      "https://www.guildquality.com/tibmadesignbuild",
+      "https://www.houzz.com/professionals/home-builders/needham-ma-us-probr0-bo~t_11823~r_4945055",
+      "https://pionarch.com/service-area/home-additions-needham-ma/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Cost data comes from contractor blog posts (Kneeland Construction, Medford) and a homeyou aggregator, not Needham-specific figures. Firm list drawn from Houzz, GuildQuality and firm landing pages. Out of the Woods absent."
+  }
+]

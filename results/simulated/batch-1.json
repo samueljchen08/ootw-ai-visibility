@@ -1,0 +1,163 @@
+[
+  {
+    "query_id": "kitchen-boston-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Several design-build firms come up repeatedly for kitchen remodeling in the Boston area. Feinmann, Inc. is the most consistently cited: a Boston-area design-build firm specializing in luxury kitchens since 1987, with more than 25 NARI Contractor of the Year awards and a 2026 PRO New England Gold Award for Best Residential Kitchen. FBN Construction is known for kitchens, baths and complex remodels, with several Gold PRISM Awards and nearly 50 years in business. Design 1 Kitchen & Bath (Bedford) is a full-service design-build firm with multiple NARI CotY Gold and Silver awards and a 4.8 rating from 70 Houzz reviews. New England Design & Construction (Lexington) is a Qualified Remodeler Top 500 firm with Eastern Mass NARI Gold and Silver CotY awards and a PRISM Gold. Boston Premier Remodeling LLC (5.0, 83 reviews) and Molla Builders LLC (5.0, 60 reviews, Best of Houzz) are the top-rated design-build contractors on Houzz for Boston. McGuire + Co. Kitchen & Bath (Wakefield) and Works by JD (design-build since 2000) also appear. Note that most rankings here are from Houzz and curated 'best of' lists rather than independent reviews, so check portfolios and references directly.",
+    "firms_named": ["Feinmann, Inc.", "FBN Construction", "Design 1 Kitchen & Bath", "New England Design & Construction", "Boston Premier Remodeling LLC", "Molla Builders LLC", "McGuire + Co. Kitchen & Bath", "Works by JD"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/boston-ma-us-probr0-bo~t_11793~r_4930956",
+      "https://www.feinmann.com/services/kitchen-remodeling-boston-ma/",
+      "https://www.bostonarchitects.org/best-kitchen-remodelers-boston/",
+      "https://design1kb.com/",
+      "https://www.generalcontractors.org/the-best-kitchen-remodeling-contractors-in-massachusetts/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Results dominated by Houzz directory pages and curated listicles (bostonarchitects.org, generalcontractors.org). Feinmann appears in nearly every result set. Out of the Woods did not appear in any search."
+  },
+  {
+    "query_id": "design-build-waltham-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "For design-build remodeling in Waltham, the strongest results are firms that serve Waltham from nearby towns rather than ones headquartered there. Feinmann, Inc. tops Houzz's Waltham design-build list with a 4.9 rating from 81 reviews, Best of Houzz 2013-2024, and 114 Waltham-area projects. New England Design & Construction (Lexington) has a 5.0 rating from 46-47 reviews, 10x Best of Houzz, and 58 Waltham-area projects. BB&R Design-Build (4.9, 33 reviews) and RemodelWerks LLC (4.9, 54 reviews, 8x Best of Houzz) are both Middlesex County design-build firms with Waltham work. Connolly Management Group (5.0, 49 reviews, 9x Best of Houzz) also shows 41 Waltham-area projects. Beyond Houzz, Morse Constructions (design-build since 1976) and Harvey Remodeling (Houzz design and service awards, BBB A+) both publish Waltham service pages, and Mitchell Construction Group is a design-build firm founded in 1987 that integrates architecture and interior design. Bay State Remodeling operates a kitchen showroom at 145 Newton St. in Waltham. Most of these rankings come from Houzz and GuildQuality directories, so verify licensing and recent references directly.",
+    "firms_named": ["Feinmann, Inc.", "New England Design & Construction", "BB&R Design-Build", "RemodelWerks LLC", "Connolly Management Group, LLC", "Morse Constructions", "Harvey Remodeling", "Mitchell Construction Group", "Bay State Remodeling"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/waltham-ma-us-probr0-bo~t_11793~r_4954380",
+      "https://www.houzz.com/professionals/home-remodeling/waltham-ma-us-probr0-bo~t_34257~r_4954380",
+      "https://www.morseconstructions.com/service-areas/waltham-ma",
+      "https://www.harveyremodeling.com/design-build-waltham/",
+      "https://baystateremodeling.com/neighborhoods/waltham"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, GuildQuality, Yelp, generalcontractors.org). Fetched the Houzz Waltham design-build page: 15 firms listed, Out of the Woods not among them despite being Waltham-based. No Waltham-headquartered design-build firm surfaced."
+  },
+  {
+    "query_id": "kitchen-arlington-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Kitchen remodeling design-build firms that show up for Arlington, MA are mostly Greater Boston firms with Arlington project history, plus a few local contractors. New England Design & Construction (Lexington) is rated 5.0 from 47 reviews, 10x Best of Houzz, with NARI CotY and PRISM awards, and markets specifically to Arlington. Feinmann, Inc. (design-build since 1987, award-winning kitchens) maintains an Arlington project gallery. Steveworks LLC (5.0, 67-69 reviews, 7x Best of Houzz) and The Curtice Group Inc (4.9, 27 reviews) are Middlesex County design-build firms at the top of Houzz's Arlington list. Molla Builders LLC (5.0, 60 reviews) and Boston Premier Remodeling LLC (5.0, 83 reviews, 58 Arlington-area projects) are also highly rated. Locally, Custom Contracting, Inc. is a full-service design-build remodeler located at 1267A Massachusetts Ave in Arlington, Kitchens by Lombco cites 30+ years in kitchens and custom cabinetry, and Refined Renovations (design-build since 2008) serves Arlington for kitchens and cabinetry. Design 1 Kitchen & Bath (Bedford, 4.8, 70 reviews) and McGuire + Co. Kitchen & Bath also appear. Ratings here are mainly Houzz and Angi, so confirm with references.",
+    "firms_named": ["New England Design & Construction", "Feinmann, Inc.", "Steveworks LLC", "The Curtice Group Inc", "Molla Builders LLC", "Boston Premier Remodeling LLC", "Custom Contracting, Inc.", "Kitchens by Lombco", "Refined Renovations", "Design 1 Kitchen & Bath", "McGuire + Co. Kitchen & Bath"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/arlington-ma-us-probr0-bo~t_11793~r_4929180",
+      "https://www.houzz.com/professionals/kitchen-remodelers/arlington-ma-us-probr0-bo~t_34334~r_4929180?fi=315",
+      "https://www.nedesignbuild.com/home-remodeling-arlington/",
+      "https://custom-contracting.com/",
+      "https://kitchensbylombco.com/kitchen-bath-remodeling-arlington-ma",
+      "https://www.refinedren.com/service-areas/arlington-ma"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, Angi, Yelp). Fetched Houzz Arlington design-build page: 18 firms, Out of the Woods absent. Several firms surface via their own Arlington service-area landing pages."
+  },
+  {
+    "query_id": "bath-needham-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Bathroom remodeling results for Needham, MA are a mix of design-build remodelers and bath-specialty companies. On Houzz's Needham bathroom list, RemodelWerks LLC (Norfolk County design-build firm, 4.9 from 54 reviews, 12x Best of Houzz, 38 Needham-area projects) and New Era Builders Inc (5.0, 51 reviews, 34 Needham-area projects, full design-build) lead. consTRUSTY Carpentry (5.0, 18 reviews) and KitchenVisions (5.0, 109 reviews) also rank highly. Sun Shore Construction is a Needham-based bath and kitchen remodeler with a 5.0 Yelp rating, licensed, bonded and insured, with a dedicated Needham bathroom page. Sky Bathroom Remodeling says it has served Needham for over two decades, and DM Power Construction cites 15+ years as a Needham bathroom renovation contractor. Cove Bath (Wellesley) does fixed-price bath remodels finished in 1-2 weeks, and Colony Home Improvement and JM Construction both list Needham bathroom services. On Yelp, Betterment Construction (5.0, 18 reviews) and Mr Fix It (5.0, 40 years in business) are also well reviewed. Most of these rankings are from Houzz and Yelp directories; check Massachusetts HIC registration and recent references before hiring.",
+    "firms_named": ["RemodelWerks LLC", "New Era Builders Inc", "consTRUSTY Carpentry", "KitchenVisions", "Sun Shore Construction", "Sky Bathroom Remodeling", "DM Power Construction", "Cove Bath", "Colony Home Improvement Inc.", "JM Construction", "Betterment Construction", "Mr Fix It"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/needham-ma-us-project-type-bathroom-remodeling-probr1-bo~t_11825~r_4945055~sv_29156?fi=30",
+      "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/needham-ma-us-probr0-bo~t_11825~r_4945055",
+      "https://www.yelp.com/search?find_desc=Bathroom+Remodeling&find_loc=Needham%2C+MA",
+      "https://sunshoreconstruction.com/services/bathroom-contractors-needham-ma/",
+      "https://skybathroomremodeling.com/",
+      "https://www.dmpowerconstruction.com/service/bathroom-remodeling-needham-ma/",
+      "https://covebath.com/bathroom-remodel-needham/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, Yelp, homeyou, lead-gen pages). Many results are small bath-specialty contractors and SEO landing pages. Fetched Houzz Needham bath page: 20 firms, Out of the Woods absent."
+  },
+  {
+    "query_id": "addition-wellesley-hire",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "For a home addition in Wellesley, you will generally want a design-build firm or an experienced general contractor that handles permitting and structural work in-house. Firms that specifically market additions in Wellesley include New England Design and Construction (architectural design plus construction, Wellesley service page, NARI and PRISM award winner), Provost Companies (custom additions including kitchen expansions, first-floor primary suites and second-story additions), Millhawlk Design & Construction (integrated architects, engineers and builders handling permitting and code compliance), Refined Renovations (design-build with 20+ years, office at 184 Worcester St. in Wellesley), and Genesis Construction and Development (design-build additions, Tudor and Colonial specialties). Northeast Kitchen Remodel & Design Build, Boston Building Concepts (20+ years, licensed and insured) and Trust Contractors (serving Wellesley since 2003) also publish Wellesley addition pages. On HomeAdvisor and Yelp, Modern Habitat, LLC has a reviewed second-story addition in Wellesley, and BC Custom Builders (4.8, 47 reviews) is well rated. For a second story, have the contractor evaluate whether the foundation can carry the load. Get at least three bids, confirm Massachusetts CSL and HIC registration, and ask for recent addition references.",
+    "firms_named": ["New England Design and Construction", "Provost Companies", "Millhawlk Design & Construction", "Refined Renovations", "Genesis Construction and Development", "Northeast Kitchen Remodel & Design Build", "Boston Building Concepts", "Trust Contractors", "Modern Habitat, LLC", "BC Custom Builders"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.nedesignbuild.com/home-remodeling-wellesley/",
+      "https://provostcompanies.com/wellesley-ma/home-additions/",
+      "https://millhawlk.com/wellesley/",
+      "https://www.refinedren.com/wellesley-office",
+      "https://www.gcdinc.us/ma/wellesley/",
+      "https://www.homeadvisor.com/tloc/Wellesley-MA/Addition-to-Existing-Structure-Build/",
+      "https://www.yelp.com/search?find_desc=Home+Addition+Contractor&find_loc=Wellesley%2C+MA"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Results are mostly contractor service-area landing pages plus HomeAdvisor/Yelp directories; few independent rankings. Out of the Woods did not appear."
+  },
+  {
+    "query_id": "design-build-boston-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "The design-build remodeling firms most often cited for the Boston area are: Feinmann, Inc., an employee-owned design-build firm since 1987 with over 1,800 completed projects, 100+ design awards, and a 4.9 Houzz rating from 81 reviews; FBN Construction, nearly 50 years specializing in complex remodels and additions with multiple Gold PRISM Awards; New England Design & Construction (Lexington), a Qualified Remodeler Top 500 firm with 10x Best of Houzz and NARI CotY Gold and Silver awards; Boston Premier Remodeling LLC (5.0 from 83 Houzz reviews) and Molla Builders LLC (5.0 from 60 reviews, Best of Houzz), the two top-rated design-build contractors on Houzz for Boston; Highline Construction, 25+ years with a LEED-AP founder and a focus on historic restoration; Benchmark Builders, known for technically demanding footprint expansions; Morse Constructions, design-build since 1976; Tom Curren Companies, remodeling Greater Boston since 1986; and Works by JD, design-build since 2000. Longfellow Design Build is large (100+ staff) but focused on Cape Cod and the South Shore. Rankings come largely from Houzz, GuildQuality, Boston Magazine's Best of Boston Home and curated lists, so weigh them with direct references.",
+    "firms_named": ["Feinmann, Inc.", "FBN Construction", "New England Design & Construction", "Boston Premier Remodeling LLC", "Molla Builders LLC", "Highline Construction", "Benchmark Builders", "Morse Constructions", "Tom Curren Companies", "Works by JD", "Longfellow Design Build"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/boston-ma-us-probr0-bo~t_11793~r_4930956",
+      "https://www.guildquality.com/find/design-build-remodel/boston-ma",
+      "https://www.bostonarchitects.org/the-best-remodeling-contractors-in-boston-massachusetts/",
+      "https://restoreourhome.com/best-home-remodeling-companies-in-massachusetts/",
+      "https://www.bostonmagazine.com/property/2025/11/17/best-of-boston-home-2026/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory and listicle heavy (Houzz, GuildQuality, Yelp, Porch, bostonarchitects.org, restoreourhome.com). Feinmann, FBN and NEDC recur across every variant. Out of the Woods absent."
+  },
+  {
+    "query_id": "design-build-arlington-best",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Design-build remodeling firms that rank for Arlington, MA are mostly Greater Boston firms with Arlington work, plus a few based in or near town. On Houzz's Arlington design-build list, Steveworks LLC (5.0, 69 reviews, 7x Best of Houzz) leads, followed by Boston Premier Remodeling LLC (5.0, 83 reviews), The Curtice Group Inc (Middlesex County design + build, 4.9, 27 reviews), Morse Constructions (4.8, 53 reviews, design-build since 1976 with an Arlington service page), Molla Builders LLC (5.0, 60 reviews) and New England Design & Construction (Lexington, 5.0, 47 reviews, NARI and PRISM awards, markets directly to Arlington and claims a 3% average budget change). MacKenzie Design Build (5.0, 41 reviews) acts as designer, builder and GC. Locally, Custom Contracting, Inc. is a full-service design-build remodeler at 1267A Massachusetts Ave in Arlington, Refined Renovations has been design-build since 2008, ReModern Builders bills itself as Arlington's design-build partner for high-end homes, and North Heritage does custom homes and multi-story additions with an in-house team since 2004. On Angi, WR Builders, Inc. (5.0, 120 reviews) and Godfrey Design-Build (5.0, 38 reviews) are also well rated. Results are dominated by Houzz, Angi, Porch and HomeAdvisor directories.",
+    "firms_named": ["Steveworks LLC", "Boston Premier Remodeling LLC", "The Curtice Group Inc", "Morse Constructions", "Molla Builders LLC", "New England Design & Construction", "MacKenzie Design Build", "Custom Contracting, Inc.", "Refined Renovations", "ReModern Builders", "North Heritage", "WR Builders, Inc.", "Godfrey Design-Build, LLC"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.houzz.com/professionals/design-build/arlington-ma-us-probr0-bo~t_11793~r_4929180",
+      "https://www.angi.com/companylist/us/ma/arlington/remodel-design.htm",
+      "https://www.nedesignbuild.com/home-remodeling-arlington/",
+      "https://www.morseconstructions.com/service-areas/arlington-ma-remodeling-contractor",
+      "https://custom-contracting.com/services/",
+      "https://remodernbuilders.com/locations-arlington",
+      "https://northheritage.com/arlington/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Directory-heavy (Houzz, Angi, Porch, HomeAdvisor). Fetched Houzz Arlington design-build page: 18 firms, Out of the Woods absent. Several firms found only via their own Arlington landing pages."
+  },
+  {
+    "query_id": "kitchen-waltham-cost",
+    "engine": "simulated",
+    "status": "ok",
+    "answer_text": "Cost: published estimates for a Waltham kitchen remodel vary by source. HomeBlue puts the range at $12,700 to $48,600, broken down as roughly $12,700-$18,500 for a small or basic job, $25,400-$37,000 for a mid-level remodel, and $32,400-$48,600 for a large or major one. Another local cost guide cites $14,500 to over $70,000, and a tiered breakdown runs $8,000-$18,000 for a refresh, $28,000-$55,000 for mid-tier stock cabinets, $58,000-$95,000 for semi-custom, and $110,000-$200,000+ for luxury with custom millwork and layout changes. Design-only fees typically run $600-$1,500, and projects take four to twelve weeks. Firms: design-build companies that actively serve Waltham include Harvey Remodeling (design-build, Waltham service page, Houzz awards, BBB A+), Bay State Remodeling (design-build with its Bay State Kitchen Gallery showroom at 145 Newton St., Waltham), Feinmann, Inc. (4.9 Houzz rating, 114 Waltham-area projects), New England Design & Construction (5.0, 58 Waltham-area projects), BB&R Design-Build and RemodelWerks LLC (both 4.9 on Houzz). Waltham-based kitchen remodelers include Watch City Kitchens (family-owned 70+ years, design through installation), HouseCraft LLC (250 Calvary St., since 2006), Three Sons, DLM Remodeling, Bertola Custom Homes and Green Bay Remodeling. Cost figures come from aggregator sites, so get itemized bids.",
+    "firms_named": ["Harvey Remodeling", "Bay State Remodeling", "Feinmann, Inc.", "New England Design & Construction", "BB&R Design-Build", "RemodelWerks LLC", "Watch City Kitchens", "HouseCraft LLC", "Three Sons", "DLM Remodeling", "Bertola Custom Homes & Remodeling", "Green Bay Remodeling"],
+    "ootw_mentioned": false,
+    "ootw_rank": null,
+    "ootw_description": null,
+    "sources_cited": [
+      "https://www.homeblue.com/kitchen-remodeling/waltham-ma-kitchen-remodeling-cost.htm",
+      "https://walthamkitchenandbathpros.com/kitchen-remodeling-cost-waltham-ma/",
+      "https://housecraftwork.com/blogs/kitchen-remodeling-waltham-ma-cost-contractor-guide/",
+      "https://www.harveyremodeling.com/service-area/design-build-waltham",
+      "https://baystateremodeling.com/neighborhoods/waltham",
+      "https://www.houzz.com/professionals/design-build/waltham-ma-us-probr0-bo~t_11793~r_4954380",
+      "https://www.watchcitykitchens.com/"
+    ],
+    "ootw_site_cited": false,
+    "notes": "Cost data comes from lead-gen aggregators (HomeBlue, HomeGuide, SEO cost pages) with inconsistent ranges. Firm results are a mix of Houzz directory and contractor landing pages. Out of the Woods absent despite Waltham geo."
+  }
+]
