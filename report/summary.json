@@ -1,26 +1,36 @@
 {
   "overall": {
-    "n": 40,
-    "mentioned": 2,
-    "mention_rate": 0.05,
+    "n": 51,
+    "mentioned": 3,
+    "mention_rate": 0.058823529411764705,
     "avg_rank": 1.0,
     "site_cited": 2
   },
   "leaderboard": [
     {
       "firm": "New England Design & Construction",
-      "mentions": 24,
-      "avg_rank": 3.29
+      "mentions": 30,
+      "avg_rank": 3.17
     },
     {
       "firm": "Feinmann, Inc.",
-      "mentions": 14,
-      "avg_rank": 1.43
+      "mentions": 16,
+      "avg_rank": 1.69
     },
     {
       "firm": "Morse Constructions",
       "mentions": 12,
       "avg_rank": 4.83
+    },
+    {
+      "firm": "Refined Renovations",
+      "mentions": 12,
+      "avg_rank": 5.67
+    },
+    {
+      "firm": "Steveworks LLC",
+      "mentions": 11,
+      "avg_rank": 4.45
     },
     {
       "firm": "JM Construction",
@@ -31,16 +41,6 @@
       "firm": "Molla Builders LLC",
       "mentions": 10,
       "avg_rank": 4.4
-    },
-    {
-      "firm": "Steveworks LLC",
-      "mentions": 10,
-      "avg_rank": 4.8
-    },
-    {
-      "firm": "Refined Renovations",
-      "mentions": 10,
-      "avg_rank": 6.3
     },
     {
       "firm": "RemodelWerks LLC",
@@ -83,6 +83,11 @@
       "avg_rank": 6.0
     },
     {
+      "firm": "Tom Curren Companies",
+      "mentions": 6,
+      "avg_rank": 6.0
+    },
+    {
       "firm": "WR Builders, Inc.",
       "mentions": 6,
       "avg_rank": 6.5
@@ -91,6 +96,26 @@
       "firm": "Schlickmann Construction",
       "mentions": 5,
       "avg_rank": 4.2
+    },
+    {
+      "firm": "McGuire + Co. Kitchen & Bath",
+      "mentions": 5,
+      "avg_rank": 5.4
+    },
+    {
+      "firm": "Feinmann",
+      "mentions": 4,
+      "avg_rank": 2.0
+    },
+    {
+      "firm": "Cove Bath",
+      "mentions": 4,
+      "avg_rank": 3.75
+    },
+    {
+      "firm": "Bay State Remodeling",
+      "mentions": 4,
+      "avg_rank": 5.25
     },
     {
       "firm": "Nexus Pro Construction",
@@ -118,9 +143,24 @@
       "avg_rank": 6.0
     },
     {
-      "firm": "Tom Curren Companies",
+      "firm": "Aureli Construction",
       "mentions": 4,
-      "avg_rank": 7.25
+      "avg_rank": 6.75
+    },
+    {
+      "firm": "Boston Building Concepts",
+      "mentions": 4,
+      "avg_rank": 6.75
+    },
+    {
+      "firm": "Sun Shore Construction",
+      "mentions": 4,
+      "avg_rank": 6.75
+    },
+    {
+      "firm": "Out of the Woods Construction",
+      "mentions": 3,
+      "avg_rank": 1.0
     },
     {
       "firm": "Thomas Buckborough & Associates",
@@ -128,9 +168,14 @@
       "avg_rank": 2.33
     },
     {
-      "firm": "Cove Bath",
+      "firm": "Essex Restoration",
       "mentions": 3,
       "avg_rank": 4.0
+    },
+    {
+      "firm": "Byggmeister",
+      "mentions": 3,
+      "avg_rank": 4.33
     },
     {
       "firm": "PionArch LLC",
@@ -143,9 +188,14 @@
       "avg_rank": 5.67
     },
     {
-      "firm": "Bay State Remodeling",
+      "firm": "Rebel Builders",
       "mentions": 3,
       "avg_rank": 6.0
+    },
+    {
+      "firm": "Steveworks",
+      "mentions": 3,
+      "avg_rank": 6.33
     },
     {
       "firm": "Capstone Design Partners",
@@ -153,27 +203,7 @@
       "avg_rank": 7.0
     },
     {
-      "firm": "McGuire + Co. Kitchen & Bath",
-      "mentions": 3,
-      "avg_rank": 7.0
-    },
-    {
-      "firm": "Aureli Construction",
-      "mentions": 3,
-      "avg_rank": 7.33
-    },
-    {
-      "firm": "Sun Shore Construction",
-      "mentions": 3,
-      "avg_rank": 7.33
-    },
-    {
       "firm": "OUR HOUSE design+build",
-      "mentions": 2,
-      "avg_rank": 1.0
-    },
-    {
-      "firm": "Out of the Woods Construction",
       "mentions": 2,
       "avg_rank": 1.0
     },
@@ -193,7 +223,12 @@
       "avg_rank": 2.0
     },
     {
-      "firm": "Feinmann",
+      "firm": "Millhawlk Design & Construction",
+      "mentions": 2,
+      "avg_rank": 2.5
+    },
+    {
+      "firm": "Masters Touch Design Build",
       "mentions": 2,
       "avg_rank": 3.0
     },
@@ -204,11 +239,6 @@
     },
     {
       "firm": "Divine Design+Build",
-      "mentions": 2,
-      "avg_rank": 4.0
-    },
-    {
-      "firm": "Essex Restoration",
       "mentions": 2,
       "avg_rank": 4.0
     },
@@ -228,11 +258,6 @@
       "avg_rank": 5.0
     },
     {
-      "firm": "Byggmeister",
-      "mentions": 2,
-      "avg_rank": 6.0
-    },
-    {
       "firm": "Kitchens by Lombco",
       "mentions": 2,
       "avg_rank": 6.0
@@ -241,6 +266,11 @@
       "firm": "Pondview Construction",
       "mentions": 2,
       "avg_rank": 6.0
+    },
+    {
+      "firm": "Bertola Custom Homes & Remodeling",
+      "mentions": 2,
+      "avg_rank": 7.0
     },
     {
       "firm": "Harvey Design Remodeling",
@@ -258,22 +288,7 @@
       "avg_rank": 7.5
     },
     {
-      "firm": "Steveworks",
-      "mentions": 2,
-      "avg_rank": 7.5
-    },
-    {
-      "firm": "Boston Building Concepts",
-      "mentions": 2,
-      "avg_rank": 8.0
-    },
-    {
       "firm": "DLM Remodeling",
-      "mentions": 2,
-      "avg_rank": 8.0
-    },
-    {
-      "firm": "Rebel Builders",
       "mentions": 2,
       "avg_rank": 8.0
     },
@@ -313,6 +328,11 @@
       "avg_rank": 10.0
     },
     {
+      "firm": "Colony Home Improvement, Inc.",
+      "mentions": 1,
+      "avg_rank": 1.0
+    },
+    {
       "firm": "Design Plus Construction Corp.",
       "mentions": 1,
       "avg_rank": 1.0
@@ -328,7 +348,22 @@
       "avg_rank": 1.0
     },
     {
+      "firm": "Modern Design & Build",
+      "mentions": 1,
+      "avg_rank": 1.0
+    },
+    {
+      "firm": "Mono Construction LLC",
+      "mentions": 1,
+      "avg_rank": 1.0
+    },
+    {
       "firm": "New England Design and Construction",
+      "mentions": 1,
+      "avg_rank": 1.0
+    },
+    {
+      "firm": "Prestige Kitchen & Bath",
       "mentions": 1,
       "avg_rank": 1.0
     },
@@ -348,6 +383,11 @@
       "avg_rank": 2.0
     },
     {
+      "firm": "Fallon Custom Homes & Renovations",
+      "mentions": 1,
+      "avg_rank": 2.0
+    },
+    {
       "firm": "Kneeland Construction",
       "mentions": 1,
       "avg_rank": 2.0
@@ -358,7 +398,7 @@
       "avg_rank": 2.0
     },
     {
-      "firm": "Masters Touch Design Build",
+      "firm": "Newton Kitchens & Design",
       "mentions": 1,
       "avg_rank": 2.0
     },
@@ -383,12 +423,32 @@
       "avg_rank": 3.0
     },
     {
+      "firm": "Dream Builders Home Improvement LLC",
+      "mentions": 1,
+      "avg_rank": 3.0
+    },
+    {
+      "firm": "FiveTen - Construction & Design",
+      "mentions": 1,
+      "avg_rank": 3.0
+    },
+    {
+      "firm": "Gold Beech Construction",
+      "mentions": 1,
+      "avg_rank": 3.0
+    },
+    {
+      "firm": "Hawthorn Builders",
+      "mentions": 1,
+      "avg_rank": 3.0
+    },
+    {
       "firm": "Kitchen Associates",
       "mentions": 1,
       "avg_rank": 3.0
     },
     {
-      "firm": "Millhawlk Design & Construction",
+      "firm": "Kitchen Cornerstones",
       "mentions": 1,
       "avg_rank": 3.0
     },
@@ -403,9 +463,34 @@
       "avg_rank": 3.0
     },
     {
+      "firm": "WR Builders Inc",
+      "mentions": 1,
+      "avg_rank": 3.0
+    },
+    {
       "firm": "consTRUSTY Carpentry",
       "mentions": 1,
       "avg_rank": 3.0
+    },
+    {
+      "firm": "Custom Creations Contracting LLC",
+      "mentions": 1,
+      "avg_rank": 4.0
+    },
+    {
+      "firm": "DKIM Contracting - Designed Living Space",
+      "mentions": 1,
+      "avg_rank": 4.0
+    },
+    {
+      "firm": "Greenmen Builders",
+      "mentions": 1,
+      "avg_rank": 4.0
+    },
+    {
+      "firm": "Kitchen Nation",
+      "mentions": 1,
+      "avg_rank": 4.0
     },
     {
       "firm": "Michael Hally Design",
@@ -428,12 +513,27 @@
       "avg_rank": 4.0
     },
     {
+      "firm": "YD Construction Inc",
+      "mentions": 1,
+      "avg_rank": 4.0
+    },
+    {
       "firm": "Yusra Design Build",
       "mentions": 1,
       "avg_rank": 4.0
     },
     {
+      "firm": "Bay State Design & Construction",
+      "mentions": 1,
+      "avg_rank": 5.0
+    },
+    {
       "firm": "CG Claudio Goncalves",
+      "mentions": 1,
+      "avg_rank": 5.0
+    },
+    {
+      "firm": "CRC Builders",
       "mentions": 1,
       "avg_rank": 5.0
     },
@@ -449,6 +549,11 @@
     },
     {
       "firm": "Godfrey Design-Build",
+      "mentions": 1,
+      "avg_rank": 5.0
+    },
+    {
+      "firm": "Jacuzzi Bath Remodel by Capital",
       "mentions": 1,
       "avg_rank": 5.0
     },
@@ -474,6 +579,11 @@
     },
     {
       "firm": "Taggart Building & Remodeling",
+      "mentions": 1,
+      "avg_rank": 5.0
+    },
+    {
+      "firm": "Watch City Kitchens, LLC",
       "mentions": 1,
       "avg_rank": 5.0
     },
@@ -523,6 +633,11 @@
       "avg_rank": 6.0
     },
     {
+      "firm": "ReModern Builders LLC",
+      "mentions": 1,
+      "avg_rank": 6.0
+    },
+    {
       "firm": "SILMAC Construction Inc.",
       "mentions": 1,
       "avg_rank": 6.0
@@ -534,6 +649,11 @@
     },
     {
       "firm": "Benchmark Builders",
+      "mentions": 1,
+      "avg_rank": 7.0
+    },
+    {
+      "firm": "Benjamin Construction",
       "mentions": 1,
       "avg_rank": 7.0
     },
@@ -698,11 +818,6 @@
       "avg_rank": 10.0
     },
     {
-      "firm": "Bertola Custom Homes & Remodeling",
-      "mentions": 1,
-      "avg_rank": 11.0
-    },
-    {
       "firm": "Longfellow Design Build",
       "mentions": 1,
       "avg_rank": 11.0
@@ -747,26 +862,49 @@
       "rank": 1,
       "description": "a long-established Waltham design/build residential remodeling firm (260 Bear Hill Rd., Suite 201) founded in 1992 and led by president Greg Antonioli",
       "query_text": "Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm"
+    },
+    {
+      "query_id": "brand-brand",
+      "engine": "google-ai-mode",
+      "rank": 1,
+      "description": "holds an overall highly positive reputation online, generally maintaining a perfect 5 out of 5-star rating across several review platforms; customers praise meticulous planning, transparent design-build process, and high-quality craftsmanship, with a very limited number of critical reviews",
+      "query_text": "Out of the Woods Construction Waltham MA reviews"
     }
   ],
   "coverage": {
     "simulated": {
       "ok": 40,
       "blocked": 0
+    },
+    "chatgpt": {
+      "ok": 0,
+      "blocked": 8
+    },
+    "google-ai-mode": {
+      "ok": 8,
+      "blocked": 0
+    },
+    "perplexity": {
+      "ok": 3,
+      "blocked": 5
     }
   },
   "top_cited_domains": [
     {
       "domain": "houzz.com",
-      "citations": 43
+      "citations": 44
     },
     {
       "domain": "nedesignbuild.com",
-      "citations": 12
+      "citations": 14
     },
     {
       "domain": "feinmann.com",
-      "citations": 10
+      "citations": 11
+    },
+    {
+      "domain": "refinedren.com",
+      "citations": 9
     },
     {
       "domain": "colonyhome.com",
@@ -774,10 +912,6 @@
     },
     {
       "domain": "harveyremodeling.com",
-      "citations": 8
-    },
-    {
-      "domain": "refinedren.com",
       "citations": 8
     },
     {
@@ -809,6 +943,10 @@
       "citations": 5
     },
     {
+      "domain": "baystateremodeling.com",
+      "citations": 4
+    },
+    {
       "domain": "gcdinc.us",
       "citations": 4
     },
@@ -817,11 +955,11 @@
       "citations": 4
     },
     {
-      "domain": "baystateremodeling.com",
+      "domain": "covebath.com",
       "citations": 3
     },
     {
-      "domain": "covebath.com",
+      "domain": "essexrestoration.com",
       "citations": 3
     },
     {
@@ -829,32 +967,28 @@
       "citations": 3
     },
     {
-      "domain": "kneelandconstruction.com",
-      "citations": 3
-    },
-    {
-      "domain": "pionarch.com",
+      "domain": "homebuilderdigest.com",
       "citations": 3
     }
   ],
   "by_service": {
     "addition": {
-      "n": 8,
+      "n": 9,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
     "bath": {
-      "n": 7,
+      "n": 9,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
     "brand": {
-      "n": 2,
-      "mentioned": 2,
+      "n": 3,
+      "mentioned": 3,
       "mention_rate": 1.0,
       "avg_rank": 1.0,
       "site_cited": 2
@@ -867,14 +1001,14 @@
       "site_cited": 0
     },
     "design-build": {
-      "n": 12,
+      "n": 15,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
     "kitchen": {
-      "n": 10,
+      "n": 14,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
@@ -897,7 +1031,7 @@
       "site_cited": 0
     },
     "Boston": {
-      "n": 5,
+      "n": 7,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
@@ -911,28 +1045,28 @@
       "site_cited": 0
     },
     "Lexington": {
-      "n": 3,
-      "mentioned": 0,
-      "mention_rate": 0.0,
-      "avg_rank": null,
-      "site_cited": 0
-    },
-    "MetroWest": {
-      "n": 2,
-      "mentioned": 0,
-      "mention_rate": 0.0,
-      "avg_rank": null,
-      "site_cited": 0
-    },
-    "Needham": {
       "n": 4,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
-    "Newton": {
+    "MetroWest": {
+      "n": 3,
+      "mentioned": 0,
+      "mention_rate": 0.0,
+      "avg_rank": null,
+      "site_cited": 0
+    },
+    "Needham": {
       "n": 5,
+      "mentioned": 0,
+      "mention_rate": 0.0,
+      "avg_rank": null,
+      "site_cited": 0
+    },
+    "Newton": {
+      "n": 7,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
@@ -946,14 +1080,14 @@
       "site_cited": 0
     },
     "Waltham": {
-      "n": 3,
+      "n": 4,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
     "Wellesley": {
-      "n": 5,
+      "n": 7,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
@@ -967,8 +1101,8 @@
       "site_cited": 0
     },
     "n/a": {
-      "n": 2,
-      "mentioned": 2,
+      "n": 3,
+      "mentioned": 3,
       "mention_rate": 1.0,
       "avg_rank": 1.0,
       "site_cited": 2
@@ -976,15 +1110,15 @@
   },
   "by_intent": {
     "best": {
-      "n": 23,
+      "n": 31,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
       "site_cited": 0
     },
     "brand": {
-      "n": 2,
-      "mentioned": 2,
+      "n": 3,
+      "mentioned": 3,
       "mention_rate": 1.0,
       "avg_rank": 1.0,
       "site_cited": 2
@@ -997,7 +1131,7 @@
       "site_cited": 0
     },
     "hire": {
-      "n": 11,
+      "n": 13,
       "mentioned": 0,
       "mention_rate": 0.0,
       "avg_rank": null,
@@ -1005,6 +1139,27 @@
     }
   },
   "by_engine": {
+    "chatgpt": {
+      "n": 0,
+      "mentioned": 0,
+      "mention_rate": 0.0,
+      "avg_rank": null,
+      "site_cited": 0
+    },
+    "google-ai-mode": {
+      "n": 8,
+      "mentioned": 1,
+      "mention_rate": 0.125,
+      "avg_rank": 1.0,
+      "site_cited": 0
+    },
+    "perplexity": {
+      "n": 3,
+      "mentioned": 0,
+      "mention_rate": 0.0,
+      "avg_rank": null,
+      "site_cited": 0
+    },
     "simulated": {
       "n": 40,
       "mentioned": 2,

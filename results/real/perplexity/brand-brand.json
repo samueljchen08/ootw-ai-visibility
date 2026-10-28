@@ -1,0 +1,6 @@
+{
+  "query_id": "brand-brand",
+  "engine": "perplexity",
+  "status": "blocked",
+  "notes": "Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account."
+}

@@ -3,9 +3,15 @@ Prepared 2026-10-28 for Dave. Boston-area and MetroWest design-build remodeling.
 
 ## 1. Executive summary
 
-**Scorecard.** 2 of 40 AI answers mentioned Out of the Woods (5%). Average rank when mentioned: 1.0. Answers citing outofthewoodsconstruction.com: 2.
+**Scorecard.** 3 of 51 AI answers mentioned Out of the Woods (6%). Average rank when mentioned: 1.0. Answers citing outofthewoodsconstruction.com: 2.
 
-_Section not yet written._
+**Three headline findings.**
+
+1. **Out of the Woods is invisible for every service-plus-town question.** Across 48 answers to queries like "best kitchen remodeling design-build firms in Newton MA" or "best design-build remodeling firms in Waltham MA", from the simulated engine, Perplexity, and Google AI Mode, the firm was named zero times. Google AI Mode's Waltham answer listed six firms with 4 to 40 Google reviews each; OOTW, a Waltham firm, was not among them. The only mentions came from the three brand-name queries, where engines described the company accurately but called its review footprint "small and mixed".
+2. **Engines build their shortlists from two sources OOTW lacks.** Houzz town lists were cited in 31 of 40 simulated answers; Google AI Mode built every answer from Google Business Profile cards; 37 of 40 answers cited a firm's own town or service-area page. OOTW's Houzz profile is filed under Acton with 3 reviews (newest 2017), Google shows 2 reviews, and the website has no town pages and names only Waltham, Boston, and Arlington.
+3. **Nothing technical is in the way.** robots.txt allows GPTBot, ClaudeBot, PerplexityBot, and Google-Extended; the sitemap works; all 17 pages fetched cleanly. This is a content, reviews, and directory-consistency problem, which is fixable.
+
+**Top five actions** (details in section 7): fix the Houzz location to Waltham and verify the Google Business Profile address (7.4); run a review campaign to reach 25 Google and 25 Houzz reviews in 90 days (7.4); publish town pages for Newton, Wellesley, Needham, Lexington, and Waltham (7.3); retitle the service pages with service plus towns and add the quotable "about" paragraph (7.1); add `HomeAndConstructionBusiness` structured data with `areaServed` (7.2).
 
 ## 2. Methodology and limitations
 
@@ -15,47 +21,57 @@ _Section not yet written._
 
 | Engine | Answers captured | Blocked |
 |---|---|---|
+| chatgpt | 0 | 8 |
+| google-ai-mode | 8 | 0 |
+| perplexity | 3 | 5 |
 | simulated | 40 | 0 |
 
-_Section not yet written._
+**Run details.** All 40 simulated queries were run on 2026-10-28 by five parallel agents, each handling eight queries, with results validated against a fixed schema. One batch of eight records omitted the "website cited" flag; it was derived from the recorded source URLs (none were on outofthewoodsconstruction.com) rather than re-run. The website audit fetched 17 pages from the sitemap the same day. Review-footprint and competitor data came from public pages fetched the same day; counts marked "not visible" could not be confirmed without a login.
+
+**Real engines.** Perplexity was run signed-out in a clean browser profile. It answered three core queries and then returned "Sign up and repeat your request" for the remaining five; a retry about 25 minutes later was walled again, so those five are recorded as blocked. Google AI Mode answered all eight core queries. ChatGPT was not run because no signed-in session was available; it is recorded as blocked for all eight core queries and should be spot-checked manually from a logged-in account.
+
+**What the simulated results do and do not show.** The simulated engine searches the live web and composes an answer from what it finds, which is what Perplexity, ChatGPT search, and Google AI Mode also do. Where the three real Perplexity answers overlap with the simulated ones, the same firms and the same source types (Houzz lists, firms' town pages) appear, which supports using the simulated set as a baseline. The simulated results are not transcripts of any specific product, and real engines vary answer to answer. The mention rate here is best read as "how often the open web gives an AI a reason to name Out of the Woods", which is the thing the website and directory changes in section 7 can move.
 
 ## 3. Visibility scorecard
 
 | Engine | Answers | OOTW mentioned | Mention rate | Avg rank | Site cited |
 |---|---|---|---|---|---|
+| chatgpt | 0 | 0 | 0% | - | 0 |
+| google-ai-mode | 8 | 1 | 12% | 1.0 | 0 |
+| perplexity | 3 | 0 | 0% | - | 0 |
 | simulated | 40 | 2 | 5% | 1.0 | 2 |
 
 | Service | Answers | OOTW mentioned | Mention rate | Avg rank | Site cited |
 |---|---|---|---|---|---|
-| addition | 8 | 0 | 0% | - | 0 |
-| bath | 7 | 0 | 0% | - | 0 |
-| brand | 2 | 2 | 100% | 1.0 | 2 |
+| addition | 9 | 0 | 0% | - | 0 |
+| bath | 9 | 0 | 0% | - | 0 |
+| brand | 3 | 3 | 100% | 1.0 | 2 |
 | cabinetry | 1 | 0 | 0% | - | 0 |
-| design-build | 12 | 0 | 0% | - | 0 |
-| kitchen | 10 | 0 | 0% | - | 0 |
+| design-build | 15 | 0 | 0% | - | 0 |
+| kitchen | 14 | 0 | 0% | - | 0 |
 
 | Town / area | Answers | OOTW mentioned | Mention rate | Avg rank | Site cited |
 |---|---|---|---|---|---|
 | Arlington | 2 | 0 | 0% | - | 0 |
 | Belmont | 2 | 0 | 0% | - | 0 |
-| Boston | 5 | 0 | 0% | - | 0 |
+| Boston | 7 | 0 | 0% | - | 0 |
 | Concord | 2 | 0 | 0% | - | 0 |
-| Lexington | 3 | 0 | 0% | - | 0 |
-| MetroWest | 2 | 0 | 0% | - | 0 |
-| Needham | 4 | 0 | 0% | - | 0 |
-| Newton | 5 | 0 | 0% | - | 0 |
+| Lexington | 4 | 0 | 0% | - | 0 |
+| MetroWest | 3 | 0 | 0% | - | 0 |
+| Needham | 5 | 0 | 0% | - | 0 |
+| Newton | 7 | 0 | 0% | - | 0 |
 | Reading | 3 | 0 | 0% | - | 0 |
-| Waltham | 3 | 0 | 0% | - | 0 |
-| Wellesley | 5 | 0 | 0% | - | 0 |
+| Waltham | 4 | 0 | 0% | - | 0 |
+| Wellesley | 7 | 0 | 0% | - | 0 |
 | Weston | 2 | 0 | 0% | - | 0 |
-| n/a | 2 | 2 | 100% | 1.0 | 2 |
+| n/a | 3 | 3 | 100% | 1.0 | 2 |
 
 | Intent | Answers | OOTW mentioned | Mention rate | Avg rank | Site cited |
 |---|---|---|---|---|---|
-| best | 23 | 0 | 0% | - | 0 |
-| brand | 2 | 2 | 100% | 1.0 | 2 |
+| best | 31 | 0 | 0% | - | 0 |
+| brand | 3 | 3 | 100% | 1.0 | 2 |
 | cost | 4 | 0 | 0% | - | 0 |
-| hire | 11 | 0 | 0% | - | 0 |
+| hire | 13 | 0 | 0% | - | 0 |
 
 ## 4. What engines say about Out of the Woods
 
@@ -63,18 +79,19 @@ _Section not yet written._
 |---|---|---|---|
 | Out of the Woods Construction Waltham MA reviews | simulated | 1 | a design-build residential remodeling company based in Waltham, MA, founded in 1992, that handles renovations, additions, kitchens, baths, custom woodworking and cabinetry across Greater Boston |
 | Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm | simulated | 1 | a long-established Waltham design/build residential remodeling firm (260 Bear Hill Rd., Suite 201) founded in 1992 and led by president Greg Antonioli |
+| Out of the Woods Construction Waltham MA reviews | google-ai-mode | 1 | holds an overall highly positive reputation online, generally maintaining a perfect 5 out of 5-star rating across several review platforms; customers praise meticulous planning, transparent design-build process, and high-quality craftsmanship, with a very limited number of critical reviews |
 
 ## 5. Who wins instead and why
 
 | # | Firm | Mentions | Avg position |
 |---|---|---|---|
-| 1 | New England Design & Construction | 24 | 3.29 |
-| 2 | Feinmann, Inc. | 14 | 1.43 |
+| 1 | New England Design & Construction | 30 | 3.17 |
+| 2 | Feinmann, Inc. | 16 | 1.69 |
 | 3 | Morse Constructions | 12 | 4.83 |
-| 4 | JM Construction | 11 | 5.73 |
-| 5 | Molla Builders LLC | 10 | 4.4 |
-| 6 | Steveworks LLC | 10 | 4.8 |
-| 7 | Refined Renovations | 10 | 6.3 |
+| 4 | Refined Renovations | 12 | 5.67 |
+| 5 | Steveworks LLC | 11 | 4.45 |
+| 6 | JM Construction | 11 | 5.73 |
+| 7 | Molla Builders LLC | 10 | 4.4 |
 | 8 | RemodelWerks LLC | 9 | 3.78 |
 | 9 | BB&R Design-Build | 9 | 4.33 |
 | 10 | Harvey Remodeling | 9 | 5.22 |
@@ -88,18 +105,117 @@ _Section not yet written._
 
 | Domain | Citations |
 |---|---|
-| houzz.com | 43 |
-| nedesignbuild.com | 12 |
-| feinmann.com | 10 |
+| houzz.com | 44 |
+| nedesignbuild.com | 14 |
+| feinmann.com | 11 |
+| refinedren.com | 9 |
 | colonyhome.com | 8 |
 | harveyremodeling.com | 8 |
-| refinedren.com | 8 |
 | jmconstructionco.com | 7 |
 | morseconstructions.com | 6 |
 | remodernbuilders.com | 6 |
 | wrbuildersinc.com | 6 |
 | bostonarchitects.org | 5 |
 | schlickmannconstruction.com | 5 |
+
+### Competitor signal comparison
+
+**New England Design & Construction**
+
+| Item | Value |
+|---|---|
+| town | Lexington, MA (342 Bedford St.); formerly marketed as Boston-based, serving Greater Boston. |
+| what_engines_credit | Credited as Boston's award-winning design-build architectural firm for whole-home remodels, additions and complex kitchens, with 20+ years in business and 35+ awards. |
+| service_pages | Yes. Services hub links to dedicated pages for Kitchen Remodeling, Bathroom Remodeling, Home Addition, Whole Home Remodel, Historic Remodel, Bedroom Remodel, Basement & Attic Conversion, and Built-ins. |
+| town_pages | Yes. 'Areas We Serve' links 16 dedicated town pages (e.g. /home-remodeling-newton/, -lexington, -wellesley, -brookline, -cambridge, -belmont, -natick, -dover); Wayland, Weston and Sudbury are text-only. |
+| review_footprint | Houzz: 47 reviews, 5.0 average, 19x Best of Houzz (2014-2026). Homepage links to GuildQuality reviews; Google count not visible. |
+| awards_press | PRO New England 2026 Gold for Best Whole Home Remodel; Modern Luxury Interiors Best of Design Boston 2026 (Best Design Build Firm); Best of Boston Home 2022 DesignBuild; 2025 PRISM Silver; Remodeling 550 list (2017). |
+| notable_signal_ootw_lacks | A full set of 16 town-specific landing pages plus a public Remodeling Cost Guide, backed by 19 Best of Houzz awards and 47 Houzz reviews (OOTW has 3 Houzz reviews and no town pages). |
+
+**Feinmann, Inc.**
+
+| Item | Value |
+|---|---|
+| town | Lexington, MA (27 Muzzey Street). |
+| what_engines_credit | Credited as a 100% employee-owned luxury design-build firm (est. 1987) known for high-end kitchens, baths, additions and whole-home remodels across Boston's western suburbs. |
+| service_pages | Yes. Dedicated pages for Whole-Home Remodeling, Home Additions, Kitchen Remodeling, Bathroom Remodeling, Sunroom & Porch, Attic, Basement, and Handyman Services. |
+| town_pages | Yes. Service-area pages for ~23 towns (e.g. /services/home-remodeling-additions-lexington-ma/), including Waltham, Newton, Wellesley, Weston, Belmont, Arlington, Concord, Sudbury; portfolio is also filterable 'By Location'. |
+| review_footprint | Houzz: 81 reviews, 4.9 average, 18x Best of Houzz. Google Business linked from site; count not visible. |
+| awards_press | 2026 NARI Regional Remodeler of the Year (Kitchen over $200K); 2026 National Chrysalis Award (Bath over $100K); two Gold PRISM awards at 2025 BRAGB; 2026 PRO New England Gold & Silver; Qualified Remodeler Top 500 (#216, 2025); 100+ awards total; Boston Real Estate Times and Modern Home Builders coverage. |
+| notable_signal_ootw_lacks | A dense, continuously refreshed awards and press stream (NARI RotY, Chrysalis, PRISM, Top 500) with a dedicated /awards/ and /news/ page, plus 81 Houzz reviews; OOTW's site shows no awards page and only 3 Houzz reviews. |
+
+**Morse Constructions**
+
+| Item | Value |
+|---|---|
+| town | Woburn, MA (3 Arrow Drive); founded in Somerville in 1976 and still widely listed there. |
+| what_engines_credit | Credited as a family-owned design-build firm since 1976 with 90%+ referral/repeat business, strong on older/pre-war Boston housing, aging-in-place and green remodeling. |
+| service_pages | Yes. Portfolio/service pages for Kitchens, Baths, Additions, and Attics & Basements, plus Design-Build process, FAQs and eBooks. |
+| town_pages | Yes. /service-areas/ pages for Arlington, Boston, Cambridge, Concord, Lexington, Winchester, Medford, Malden, Middleton, Newton and more, each naming the services offered in that town. |
+| review_footprint | Houzz: 53 reviews, 4.8 average, 17x Best of Houzz (2013-2026). Also on GuildQuality and Yelp; Google count not visible. |
+| awards_press | NARI CotY Regional Winner and Eastern Mass NARI Gold (2015); featured in Architectural Digest, This Old House and Better Homes & Gardens; named a Top 50 remodeler by Remodeling Magazine; CAPS, Certified Green Remodeler, Universal Design certifications. |
+| notable_signal_ootw_lacks | Per-town service-area pages that each spell out kitchen/bath/addition services for that town, combined with national press (Architectural Digest, This Old House) and 53 Houzz reviews. |
+
+**JM Construction**
+
+| Item | Value |
+|---|---|
+| town | Framingham, MA (82 Herbert St, Unit 1E). |
+| what_engines_credit | Credited as a MetroWest award-winning design-build company since 1986 specializing in kitchens, baths, additions and basements for Wellesley, Weston, Sherborn, Dover, Holliston and Needham. |
+| service_pages | Yes. Dedicated pages for Kitchens, Bathrooms, Additions, Basements, Outdoor Living, Mudrooms and Home Maintenance. |
+| town_pages | Yes. /places/ town pages such as /places/wellesley-ma/ ('Home Remodeling in Wellesley, MA'); other MetroWest towns named in copy. |
+| review_footprint | GuildQuality: 42 reviews, 4.9 average, ~98% would recommend. Houzz: 6 reviews, 5.0, 2x Best of Houzz (Service 2021, 2024). Multiple 5-star Google reviews embedded on homepage; total count not visible. |
+| awards_press | 2026 GuildMaster Award for Outstanding Customer Service; Remodelers Advantage Impact Award; PRISM Award (Building Design); NARI and NKBA member; EPA Lead-Safe; Habitat for Humanity partner. |
+| notable_signal_ootw_lacks | Third-party verified customer surveys (GuildQuality, 42 reviews, GuildMaster award) surfaced on the site alongside a Remodeling Library/blog and town pages; OOTW shows only self-hosted testimonials. |
+
+**Molla Builders LLC**
+
+| Item | Value |
+|---|---|
+| town | North Reading, MA (199 Central Street). |
+| what_engines_credit | Credited mainly via Houzz as a 5-star full-service residential remodeler focused on kitchen and bath gut remodels, with owner Dennis praised for communication, scheduling and budgeting. |
+| service_pages | No. Site has only Home, Our Work, About and Contact; kitchens and baths are described in body copy without dedicated pages. |
+| town_pages | No. Project locations (Boston South End, Arlington) are mentioned, but there are no service-area pages. |
+| review_footprint | Houzz: 60 reviews, 5.0 average, Best of Houzz winner, verified license and 2 verified hires. Google count not visible. |
+| awards_press | Best of Houzz; no other awards or press visible. |
+| notable_signal_ootw_lacks | A large, perfect-score Houzz footprint (60 reviews at 5.0) that lets the firm rank on Houzz 'Best 15' lists across many towns despite a minimal website; OOTW has 3 Houzz reviews. |
+
+**Steveworks LLC**
+
+| Item | Value |
+|---|---|
+| town | Newton, MA (108 Cabot Street). |
+| what_engines_credit | Credited as a worker-owned design-build remodeling co-op (est. 2000) known for sustainability, energy performance, universal design and ADUs. |
+| service_pages | Yes. Portfolio pages for Kitchens, Baths, Decks & Porches, Mudrooms/Built-Ins, Additions/ADUs/Basements/Whole House, and Energy/Envelope/Indoor Air Quality. |
+| town_pages | No dedicated town pages visible; towns (Newton, Belmont, Wellesley) appear within project and blog pages only. |
+| review_footprint | Houzz: 69 reviews, 5.0 average, 12x Best of Houzz (Service 2015-2026). GuildQuality: 13 surveys, 4.9 average. Google count not visible. |
+| awards_press | PRO New England 2024 Gold for Best Energy Efficient Home Remodel; 11+ consecutive Best of Houzz Service awards; NARI Eastern Mass and NESEA affiliations. |
+| notable_signal_ootw_lacks | A distinct positioning hook (worker-owned co-op plus energy/ADU specialty with its own service page) and 69 Houzz reviews; OOTW has no comparable differentiator page or review volume. |
+
+**Refined Renovations**
+
+| Item | Value |
+|---|---|
+| town | Wilmington, MA (16 Upton Drive, Suite 1) with a by-appointment Wellesley office; Houzz lists Andover. |
+| what_engines_credit | Credited as a design-build firm (since 2008, 20+ years remodeling) blending architecture, millwork, custom cabinetry and fine finishes, with an in-house interiors arm (Refined Home). |
+| service_pages | Partial. Top-level Design & Build and Interiors pages; kitchens, baths, additions and cabinetry are described within those and the portfolio rather than on separate per-service pages. |
+| town_pages | Yes. /service-areas/ pages for 35+ towns (Andover, North Andover, Wellesley, Newton, Brookline, Cambridge, Arlington, Belmont, Dover, Needham, Sudbury, Winchester, Newburyport, Sherborn, etc.) plus two office location pages. |
+| review_footprint | Houzz: 53 reviews, 5.0 average, 14 Best of Houzz awards (2016-2026). Google count not visible. |
+| awards_press | 2024 Chrysalis Award (Residential Interior over $500K); 2024 Harmoni Design Award (Best Non-Traditional Kitchen); Andover Historic Preservation Award; featured in Boston Globe, Northshore Home, Merrimack Valley Home and New England Home magazines. |
+| notable_signal_ootw_lacks | An extensive town-page network (35+ service-area pages) paired with a cabinetry/millwork specialty that is explicitly marketed; OOTW has cabinetry in its name but no town pages and no cabinetry service page. |
+
+**RemodelWerks LLC**
+
+| Item | Value |
+|---|---|
+| town | Shrewsbury, MA (621 Main St.). |
+| what_engines_credit | Credited as a 3D-design-driven design-build firm covering kitchens, baths, basements, additions, whole-house and exteriors from Shrewsbury east to Boston, with a multi-year workmanship guarantee. |
+| service_pages | Yes. Dedicated pages for Kitchen, Bathroom, Basement and Attic remodeling, Whole House Remodeling, Additions, New Construction, Commercial, plus exterior services (roofing, siding, decks, windows, doors). |
+| town_pages | Yes. Many town landing pages, e.g. /remodeling-firm-boston-ma/, /remodeling-construction-westborough-ma/, -northborough, -ashland, -holden, and kitchen-specific town pages for Holliston, Millis, Stow and Wayland. |
+| review_footprint | Houzz: 54 reviews, 4.9 average. Angi and Chamber of Commerce listings show mixed ratings (one detailed Angi complaint about estimate increases). Google count not visible. |
+| awards_press | Houzz Professional badge and an 'Awards & Recognitions' nav link; specific awards not visible. Site advertises a 3-to-5-year guarantee on all work and in-house 3D design. |
+| notable_signal_ootw_lacks | Service-by-town landing pages (e.g. kitchen remodeling pages for individual towns) and a published multi-year workmanship guarantee; OOTW has neither town pages nor a stated guarantee. |
+
 
 ## 6. Website and footprint audit findings
 
@@ -180,15 +296,72 @@ _Section not yet written._
 
 ## 7. Recommendations
 
-_Section not yet written._
+The pattern across 40 queries is simple. AI engines build their shortlists from two kinds of pages: Houzz directory lists for a town (cited in 31 of 40 answers) and a firm's own town or service-area page (cited in 37 of 40 answers). Out of the Woods has neither. Its Houzz profile is filed under Acton with three reviews, the newest from 2017, so it is absent from the Houzz "design-build firms in Waltham" list even though it is a Waltham firm. Its website names only three of the twelve scope towns anywhere (Waltham, Boston, Arlington) and has no page for any town. Nothing is blocking crawlers: robots.txt permits GPTBot, ClaudeBot, PerplexityBot, and Google-Extended. The fix is content and citations, not technical access.
+
+### 7.1 Website wording
+
+**Finding.** Service pages are titled as portfolios ("Kitchen Remodeling Portfolio | Massachusetts") and every town-level phrase on the site says "Greater Boston". Engines matched queries like "kitchen remodeling design-build firms in Newton MA" to competitors' pages that use those exact words. **Change.** Retitle and rewrite the four service pages so the title, H1, and first paragraph name the service plus the towns, and move the portfolio below the fold. **Draft copy for the kitchens page:**
+
+> Title: Design-Build Kitchen Remodeling in Waltham, Newton, Wellesley & Needham MA | Out of the Woods Construction
+> H1: Design-Build Kitchen Remodeling for Route 128 and MetroWest Homes
+> Out of the Woods Construction & Cabinetry has designed and built kitchens in Waltham, Newton, Wellesley, Needham, Lexington, Belmont, Arlington, Weston, Concord, and Reading since 1992. One team handles design, custom cabinetry from our own shop, and construction, so the plan you approve is the kitchen you get. Less than 3% of our revenue comes from change orders.
+
+**Finding.** The homepage H1 is "Remodel . . . be happy." and the page has no plain statement of what the company is, where it is, or where it works. In the two brand queries engines did describe OOTW accurately, but they had to assemble it from BBB, Yelp, and Nextdoor. **Change.** Add a quotable "about" paragraph to the homepage and the team page, written as the sentence you want an engine to repeat. **Draft copy:**
+
+> Out of the Woods Construction & Cabinetry is a design-build residential remodeling firm in Waltham, Massachusetts, founded in 1992. We remodel kitchens and bathrooms, build additions, and renovate whole houses for homeowners along Route 128 and in MetroWest, from Reading to Needham, Wellesley, and Newton. Our in-house woodworking shop builds custom cabinetry and reproduces period millwork for older homes. Over 90% of our work comes from repeat clients and referrals, and we were named to Remodeling Magazine's Big50 in 2006.
+
+**Finding.** Six of the eight cost and "who should I hire" queries were answered from contractor blog posts and cost guides, never from OOTW. **Change.** Publish a service-area statement and a short FAQ on the "What We Do" page that answers the questions homeowners actually ask engines: what does a kitchen remodel cost in Newton, how long does an addition take, what does design-build mean, which towns do you serve. Use real ranges from recent projects.
+
+### 7.2 Structured data
+
+**Finding.** The only JSON-LD on the site is the Squarespace default `WebSite` type. No page declares the business, its address, its service area, or its services in machine-readable form. **Change.** Add one `HomeAndConstructionBusiness` block to every page via Squarespace code injection, with `name`, `address` (260 Bear Hill Rd, Suite 201, Waltham, MA 02451), `telephone`, `foundingDate` 1992, `url`, `sameAs` links to the Houzz, Google, Facebook, and Nextdoor profiles, and `areaServed` as a list of the twelve towns. Add a `Service` entity per service page (Kitchen Remodeling, Bathroom Remodeling, Home Additions, Custom Cabinetry, Whole-House Renovation) and `FAQPage` markup on the FAQ once it exists. Do not add `AggregateRating` unless it mirrors a live Google or Houzz rating.
+
+### 7.3 New pages
+
+**Finding.** The eight most-recommended competitors average more than fifteen town pages each (NEDC 16, Feinmann about 23, Refined Renovations 35+, Morse and JM Construction and RemodelWerks each a full set). OOTW has zero, and the towns with zero mentions of OOTW in this audit are exactly the towns with zero coverage on the site: Newton, Wellesley, Needham, Lexington, Reading, Belmont, Weston, Concord. **Change.** Build a service-area hub page plus one page per town, starting with the five towns that carried the most queries (Newton, Wellesley, Needham, Lexington, Waltham). Each page needs 400 to 600 words, two or three real projects from that town with photos, the housing-stock angle (Newton Victorians, Needham capes, Lexington mid-century), and a link to each service page. Fifty words of boilerplate with the town name swapped will not be cited.
+
+**Finding.** "Cabinetry" is in the company name and the one cabinetry query returned twelve firms without OOTW. The cabinetry page exists but is positioned as a luxury upgrade, not as the in-house shop that differentiates a design-build firm. **Change.** Rewrite the cabinetry page around the shop: period millwork reproduction, built-ins, kitchen cabinetry built for the firm's own remodels, and name the towns.
+
+**Finding.** No page explains the firm's process or guarantee in terms engines quote (JM Construction's GuildQuality surveys, RemodelWerks' published multi-year guarantee, Feinmann's awards page all got cited). **Change.** Add an awards and press page (Big50 2006, Best of Houzz 2017, NARI and PRO New England memberships, any media from the existing media page) and state the workmanship warranty in one sentence on the process page.
+
+### 7.4 Off-site citations and reviews
+
+**Finding.** Houzz is the single most-cited source in this audit, and OOTW's Houzz profile shows "Acton, MA 01720", three reviews, and no review since May 2017. Molla Builders ranks on Houzz town lists across the region with a four-page website because it has 60 five-star Houzz reviews. **Change.** Fix the Houzz location to Waltham today, then run a review campaign to past clients (the testimonials page already has nine named, willing clients) with a target of 25 Houzz reviews and 25 Google reviews within 90 days. Reviews that name the town and the service ("our Newton kitchen") help most.
+
+**Finding.** Four different addresses are live across directories: 260 Bear Hill Rd (website), 1347 Main St Waltham (BBB and the Google-synced Birdeye profile, which suggests the Google Business Profile itself may still show the old address), 312 Nagog Hill Rd Acton (BuildZoom with a wrong phone, MasterBrand dealer locator, Alignable), and 15 or 33 Ryder St Arlington (an unclaimed duplicate Nextdoor page, MapQuest, Cylex, Yellow Pages). **Change.** Verify the Google Business Profile address and categories first, then correct or remove each stale listing and claim the Arlington Nextdoor page so it can be merged. Consistent name, address, and phone across sources is how engines decide two listings are the same business.
+
+**Finding.** Both brand queries led engines to the 2014 one-star Yelp review and to describe the review footprint as "small and mixed". **Change.** Post an owner response on the Yelp review and ask two or three recent clients to review on Yelp so the 3.0 is no longer the headline number.
+
+**Finding.** Angi has no profile for the firm, and the firm's PRO New England member page was cited by Perplexity for a competitor. **Change.** Create the Angi profile with the Waltham address, and complete the PRO New England and NARI member profiles with the service list and towns served, since engines cited both association sites in this audit.
 
 ## 8. 30/60/90-day plan
 
-_Section not yet written._
+**First 30 days (fixes that cost hours, not weeks).**
+
+- Correct the Houzz profile location to Waltham and update its services and photos.
+- Verify the Google Business Profile address, phone, categories, and hours; add the service list and the twelve towns to the description.
+- Claim the Arlington Nextdoor page and request a merge; correct BuildZoom, BBB, MasterBrand, Alignable, and MapQuest to 260 Bear Hill Rd Suite 201.
+- Respond to the 2014 Yelp review; ask three recent clients for Yelp and Google reviews.
+- Add the "about" paragraph from section 7.1 to the homepage and team page, and the `HomeAndConstructionBusiness` JSON-LD block site-wide.
+- Retitle the four service pages with service plus towns.
+
+**Days 31 to 60 (content that engines can cite).**
+
+- Publish the service-area hub and the first five town pages: Newton, Wellesley, Needham, Lexington, Waltham.
+- Publish the FAQ with cost ranges and timelines, with `FAQPage` markup.
+- Rewrite the cabinetry page around the in-house shop.
+- Launch the review campaign to the nine testimonial clients and all clients from the last three years, targeting Houzz and Google.
+
+**Days 61 to 90 (depth and measurement).**
+
+- Publish the remaining town pages: Belmont, Arlington, Weston, Concord, Reading, plus a MetroWest page.
+- Add the awards and press page and a one-sentence warranty statement.
+- Create the Angi profile; complete PRO New England and NARI profiles.
+- Re-run this audit's 40 queries and compare the mention rate to this baseline of 2 of 40.
 
 ## 9. Items from Dave's audit
 
-_Section not yet written._
+Dave mentioned an existing audit and a list of missing items. That list had not been received by the report date, so this section is a placeholder. When it arrives, each missing item will be mapped to the recommendations in section 7 so the two documents can be worked as one list. Items on it that overlap with findings here (structured data, service-area pages, directory cleanup) should be treated as confirmed by two independent reviews.
 
 ## 10. Appendix: every query and answer
 
@@ -202,6 +375,118 @@ _kitchen-boston-best · kitchen · Boston · best · core_
 
 Sources: <https://www.houzz.com/professionals/design-build/boston-ma-us-probr0-bo~t_11793~r_4930956>, <https://www.feinmann.com/services/kitchen-remodeling-boston-ma/>, <https://www.bostonarchitects.org/best-kitchen-remodelers-boston/>, <https://design1kb.com/>, <https://www.generalcontractors.org/the-best-kitchen-remodeling-contractors-in-massachusetts/>
 
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: New England Design & Construction, McGuire + Co. Kitchen & Bath, FiveTen - Construction & Design, Kitchen Nation, Boston Building Concepts · OOTW: not mentioned
+
+> AI Mode Conversation: best kitchen remodeling design-build firms in the Boston area
+> best kitchen remodeling design-build firms in the Boston area
+> Terms
+> 5 km 
+> The top kitchen remodeling design-build firms in the Boston area combine architectural design expertise with licensed general contracting to manage your project from initial 3D renderings down to the final punch-list.
+> Because kitchen renovations in Boston often involve historic structural layouts, removing weight-bearing walls, or maximizing tight square footage, opting for a unified design-build method limits unpredictable change orders and streamlines material procurement.
+> Top Full-Service Design-Build Firms
+> New England Design & Construction
+> 5.0
+> (33)
+> Architect
+> OpenLexington, MA
+> Directions
+> Located just outside the city, this premier firm is a highly regarded team of architects and construction professionals specializing in luxury, sustainable, and eco-friendly design-build projects. They are well-known for creating high-end, bright spaces featuring custom millwork, marble countertops, and farmhouse features. They back their craftsmanship with a generous 5-year warranty.
+> Best for: Sustainable luxury, large-scale structural layouts, and comprehensive architectural management.
+> Check out their look: View their portfolio styling on New England Design & Construction.
+> McGuire + Co. Kitchen & Bath
+> 5.0
+> (45)
+> Kitchen remodeler
+> OpenWakefield, MA
+> Directions
+> An award-winning, small design-build firm operating a personalized showroom in Wakefield. They specialize in dramatic, high-end updates (like matching dark cabinetry with luxury quartz and custom backsplashes) and wall removals to create open-concept kitchen and dining configurations.
+> Best for: Personalized, boutique showroom experiences and custom cabinetry integration.
+> Learn more: Review their latest project reveals on McGuire + Co. Kitchen & Bath.
+> FiveTen - Construction & Design
+> 5.0
+> (30)
+> General contractor
+> OpenMedford, MA
+> Directions
+> A meticulous, woman-owned general contracting and design firm. They utilize a unique, intentional multi-step preparation framework before demo day to map out precise designs, eliminate surprise change orders, and streamline material deliveries.
+> Best for: Budget precision, highly intentional layouts, and modern aesthetic upgrades.
+> Learn more: Explore their design packages on FiveTen Construction & Design.
+> Kitchen Nation
+> 5.0
+> (86)
+> Kitchen remodeler
+> OpenBrookline, MA
+> Directions
+> Based in Brookline, this group heavily prioritizes functional everyday ergonomics—tailoring cabinet heights, drawer placements, and waterfall islands specifically to the homeowner's lifestyle. They excel at structural kitchen optimization, maximizing tight layouts without making them feel crowded.
+> Best for: Brookline/Newton urban spaces, modern waterfall islands, and 3D rendering designs.
+> Learn more: Book a design consult at Kitchen Nation.
+> Boston Building Concepts
+> 4.9
+> (40)
+> General contractor
+> OpenWatertown, MA
+> Directions
+> Boasting more than 20 years of local general contracting experience, they work lockstep with designers and architects to manage structural remodels from demolition to final finishes. They are highly rated for reliably completing multi-room projects—such as combined kitchen, dining, or full home additions—firmly on schedule.
+> Best for: Complex structural updates, home additions, and sticking rigidly to budget timelines.
+> Learn more: Check ratings and services via Boston Building Concepts on Angi. 
+> How to Choose Your Firm
+> When sorting through design-build firms, prioritize how they structure their initial phases to make sure your budget remains protected:
+> Pre-Construction Frameworks: Look for firms like FiveTen or Greater Boston Kitchen Remodeling that emphasize deep pre-construction planning. Clear-cut 3D rendering phases lock down material counts and prevent costly field adjustments mid-demolition. 
+> Payment Safeguards: Certain firms offer unique contractual protections. For example, Greater Boston Kitchen Remodelin
+
+**perplexity** · firms: Feinmann, New England Design & Construction, Bay State Remodeling, McGuire + Co. Kitchen & Bath · OOTW: not mentioned
+
+> I’d start with Feinmann, New England Design & Construction, and Bay State Remodeling for a Boston-area kitchen design-build project. They offer different reasons to make the shortlist: Feinmann for design-intensive kitchen transformations, NEDC for architecturally ambitious renovations, and Bay State for a kitchen-focused showroom-to-construction process. Those distinctions reflect their published services and portfolios—not an independently audited ranking.
+> feinmann
+> +2
+> 
+> My shortlist
+> Firm	Why I’d consider it	Best project fit
+> Feinmann — Lexington, serving Greater Boston	Established in 1987, with an integrated team of architects, interior designers, selection experts, project managers, and lead carpenters. Its kitchen portfolio includes reworking adjoining dining and mudroom spaces, not just replacing cabinetry. 
+> feinmann
+> 	A design-led kitchen remodel involving a new layout, better circulation, or changes to adjacent rooms.
+> New England Design & Construction — Boston	Combines architectural design and construction, with a portfolio spanning Boston-area communities including Newton, Cambridge, Brookline, and Wayland. Its published kitchen work includes complete gut remodels and kitchens incorporated into larger additions. 
+> nedesignbuild
+> 	A kitchen renovation that forms part of a broader architectural transformation or addition.
+> Bay State Remodeling / Bay State Kitchen Gallery — Boston and Waltham	Explicitly offers cabinetry design through its Waltham showroom, with construction and installation under one contract. Its published process includes floor plans, renderings, procurement, a single project lead, and weekly updates. 
+> baystateremodeling
+> 	A full kitchen renovation where you want a clear connection between cabinetry selection, design, and construction responsibility.
+> McGuire + Co. Kitchen & Bath	An additional kitchen-specific candidate: its Houzz listing identifies kitchen and bath design, cabinetry, design-build remodeling, and general contracting, with 32 reviews averaging 5.0 at the time of the listing retrieved. My evidence for this firm is thinner than for the three above. 
+> houzz
+> 	A comparison bid from a kitchen-and-bath-focused firm rather than a broader architectural remodeler.
+> How I’d narrow the choice
+> 
+> For a substantial layout change, I would interview Feinmann and NEDC first: both describe integrated design-and-construction teams, and their published work goes beyond finish replacement. For a more kitchen-contained renovation, I would include Bay State because its stated offering directly connects showroom cabinetry design with the construction contract. This is a fit assessment, not a claim that one delivers better workmanship than another.
+> feinmann
+> +2
+> 
+> I wouldn’t rank them by price from the available evidence. I haven’t verified comparable project minimums, current availability, or like-for-like bids. Feinmann itself notes that kitchen pricing depends on scope, existing finishes, and selections rather than a simple square-foot formula.
+> feinmann
+> 
+> What to ask before paying a design fee
+> 
+> Use the same brief for each interview so the proposals are comparable. In particular, ask:
+> 
+> “Can you show me two completed kitchens similar to mine in house type, scope, and total investment?”
+> 
+> “Does your proposed budget include design, permits, structural engineering if needed, cabinetry, installation, appliances, and finish work?”
+> 
+> “What is fixed-price, what remains an allowance, and how are changes priced?”
+> 
+> “Who owns the design documents, and what happens if I don’t proceed to construction?”
+> 
+> “Who will run my job day to day, and can I speak with recent clients whose projects that person managed?”
+> 
+> These questions help test the distinctions the firms advertise: Feinmann’s integrated team, NEDC’s architecture-and-build model, and Bay State’s single-contract, single-project-lead process.
+> feinmann
+> +2
+> 
+> What town or Boston neighborhood is the home in, and what is your approximate all-in budget? Those two details would materially change 
+
+Sources: <https://www.feinmann.com/services/kitchen-remodeling-boston-ma/>, <https://www.nedesignbuild.com/>, <https://baystateremodeling.com/>, <https://www.houzz.com/professionals/kitchen-and-bath/boston-ma-us-probr0-bo~t_11790~r_4930956>
+
 ### best kitchen remodeling design-build firms in Newton MA
 
 _kitchen-newton-best · kitchen · Newton · best · core_
@@ -211,6 +496,124 @@ _kitchen-newton-best · kitchen · Newton · best · core_
 > Several design-build firms show up repeatedly for kitchen remodeling in Newton, MA. Feinmann, Inc. (Lexington) is an award-winning design-build company with more than 25 NARI awards since 1987 and tops Home Builder Digest's Newton kitchen list. New England Design & Construction (NEDC) is a Boston-based architectural design-build firm with 15+ years of kitchen work serving Newton. RemodelWerks LLC is a 3D-design-driven design-build firm with a 4.9 Houzz rating (54 reviews) and NARI CotY awards. Steveworks LLC is a Newton-based, worker-owned design-build co-op with a 5.0 rating and a focus on sustainability. BB&R Design-Build is a Best of Houzz kitchen-and-bath design-build firm rated 4.9 (33 reviews). Auburndale Builders is a Newton firm known for high-performance, energy-efficient renovations, and PEGASUS Design-To-Build (Melrose) is NARI/NKBA accredited with a BBB A+ rating. Newton-local options also include Three Stone Kitchen Studio and WR Builders. Most of these rankings come from Houzz and editorial roundups, so check recent reviews and request a few consultations.
 
 Sources: <https://www.homebuilderdigest.com/the-best-kitchen-remodeling-contractors-in-newton-massachusetts/>, <https://www.houzz.com/professionals/kitchen-remodelers/newton-ma-us-probr0-bo~t_34334~r_4945283>, <https://www.houzz.com/professionals/design-build/newton-ma-us-probr0-bo~t_11793~r_4945283>, <https://www.nedesignbuild.com/home-remodeling-newton/>, <https://threestoneskitchenstudio.com/>, <https://www.wrbuildersinc.com/>
+
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Steveworks LLC, Newton Kitchens & Design, WR Builders Inc, DKIM Contracting - Designed Living Space, Watch City Kitchens, LLC, ReModern Builders LLC, Benjamin Construction · OOTW: not mentioned
+
+> AI Mode Conversation: best kitchen remodeling design-build firms in Newton MA
+> best kitchen remodeling design-build firms in Newton MA
+> Newton features an excellent selection of high-end design-build firms and custom kitchen specialists capable of handling complex historic home renovations and seamless modern kitchen updates.
+> If you want a highly integrated, sustainable project or masterfully crafted custom cabinetry, I've curated the top-rated design-build contractors serving the Newton area.
+> Terms
+> 2 km 
+> Top Kitchen Design-Build Firms in Newton
+> Steveworks LLC
+> 5.0
+> (20)
+> Contractor
+> Open108 Cabot St
+> Directions
+> Best for Eco-Friendly & Sustainable Renovation: Steveworks specializes in high-performance, energy-efficient residential remodeling. Now operating as a worker-owned cooperative, they are highly regarded for executing gut renovations of kitchens while simultaneously integrating insulation, air sealing, and smart HVAC zone additions. Clients highlight their flexible, thorough approach to matching design aesthetics with a homeowner's budget.
+> Newton Kitchens & Design
+> 5.0
+> (56)
+> Cabinet store
+> OpenNeedham, MA
+> Directions
+> Best for Handcrafted Luxury & Custom Cabinetry: Located right on the border in Needham, they design and manufacture premium, bespoke kitchen cabinetry and furniture right here in Massachusetts. Their design-build approach focuses heavily on combining high-end luxury materials—like Italian lacquers and exotic wood veneers—with everyday functionality. Reviewers routinely praise their ability to flawlessly execute highly customized design visions.
+> WR Builders Inc
+> 4.8
+> (70)
+> General contractor
+> Open397 Elliot St
+> Directions
+> Best for On-Time, Structural Remodels: Situated on Elliot Street, WR Builders is a full-service general contracting firm known for managing seamless kitchen, bathroom, and structural home additions. Clients report that their team is incredibly patient with last-minute design revisions and consistently delivers highly executed custom cabinetry on time and within budget boundaries.
+> DKIM Contracting - Designed Living Space
+> 5.0
+> (19)
+> Remodeler
+> Open16 Parsons St
+> Directions
+> Best for Meticulous Interior Details: Based right in Newton, Doug at DKIM Contracting focuses on residential spaces where attention to architectural detail is paramount. He provides comprehensive design-build remakes of kitchens and adjacent living areas, including custom-crafted French doors and high-quality integrated shelving. 
+> Highly Rated Near-by Alternatives
+> Watch City Kitchens, LLC
+> 4.9
+> (31)
+> Kitchen remodeler
+> OpenWaltham, MA
+> Directions
+> Best for Multi-Generational Experience: Operating in neighboring Waltham for over 85 years, this family-owned outfit takes clients from the initial layout phase through cabinet fabrication and final installation. They are frequently commended by Newton homeowners for turning stressful, large-scale kitchen remodels into organized and bright spatial transformations.
+> ReModern Builders LLC
+> 4.8
+> (23)
+> Construction company
+> OpenWatertown, MA
+> Directions
+> Best for Tech-Forward Project Tracking: Located in Watertown, ReModern is a high-end contractor that stands out for using a personalized project portal that lets homeowners track real-time budgets, supply chain adjustments, schedules, and photos. They excel at entire first-floor re-imaginings that anchor a modern kitchen island setup to the home's original layout.
+> Benjamin Construction
+> 5.0
+> (37)
+> Construction company
+> OpenWatertown, MA
+> Directions
+> Best for Historic Homes & Complex Guts: Specializing in historic single-family residences, full gut renovations, and complex structural work, their managers work individually with clients to stitch new structural materials seamlessly into older architectures. Their craftsmanship ranges effortlessly from traditional 18th-century wood paneling to ultra-modern stainless steel interiors. 
+> If you want to narrow down this list, tell me:
+> What is the approximate age or architectural style of your Newton home? (e.g., Victorian, Mid-Cent
+
+**perplexity** · firms: Feinmann, New England Design & Construction, Kitchen Cornerstones, Steveworks, Tom Curren Companies · OOTW: not mentioned
+
+> For a kitchen remodel in Newton, I’d start with Feinmann and New England Design & Construction, then compare Kitchen Cornerstones if you want a Newton-based, kitchen-focused firm. These are a shortlist by project fit—not an objective ranking—and include firms based outside Newton that have documented work in the city.
+> feinmann
+> +2
+> 
+> Best firms to interview
+> Firm	Best fit	Why it makes the shortlist
+> Feinmann — Lexington	High-end kitchens, significant layout changes, or a kitchen remodel tied to an addition	An established, employee-owned design-build firm with an extensive Newton portfolio. Its “Crafted Calm” Newton project expanded a kitchen through a two-story addition; the firm reports a 2026 regional Chrysalis award in the Kitchen Over $250,000 category for that project. That award category is evidence of project scale—not a minimum project price. 
+> feinmann
+> +2
+> 
+> New England Design & Construction (NEDC) — serving Newton	Architectural reconfiguration and kitchen renovations affecting adjacent rooms	Its Newton portfolio includes a kitchen gut renovation that removed a small mudroom to enlarge the space. Its published process covers design, structural drawings, renderings, material selections, construction management, weekly meetings, and a two-year service warranty. 
+> nedesignbuild
+> 
+> Kitchen Cornerstones — Newton showroom	A kitchen-specialist approach with a local showroom	The company specifically identifies itself as a kitchen design-build firm with a Newton showroom. Worth interviewing if you prefer a kitchen-focused team rather than a broader whole-home remodeling practice; the evidence I found is primarily the company’s own description, so I’d scrutinize recent references and completed projects. 
+> kitchencornerstones
+> 
+> Steveworks — Newton	Sustainability-minded remodeling with a locally based team	PRO New England lists Steveworks as a design-build remodeling company focused on sustainable remodeling. It also appears in Home Builder Digest’s Newton kitchen-remodeling roundup. Ask for recent kitchen projects comparable to yours to assess its design style and execution. 
+> pro-ne
+> +1
+> 
+> Tom Curren Companies — Auburndale/Newton	Another local option for integrated kitchen design and construction	Home Builder Digest describes its kitchen service as extending from initial design through finishing and identifies its Auburndale location. I’d treat it as an additional comparison bid rather than rank it ahead of firms with more directly documented Newton kitchen portfolios. 
+> homebuilderdigest
+> How I’d narrow the list
+> 
+> For a substantial, design-led renovation: interview Feinmann and NEDC first. Both show actual Newton projects involving meaningful changes to the home—not simply cabinet and countertop replacement.
+> nedesignbuild
+> +1
+> 
+> For a kitchen-focused project: add Kitchen Cornerstones, particularly if a local showroom is important to your selection process.
+> kitchencornerstones
+> 
+> For sustainability as a central priority: include Steveworks, whose trade-association profile explicitly identifies that focus.
+> pro-ne
+> 
+> What to compare before hiring
+> 
+> Use those project-fit differences to choose three interviews. Then ask each firm the same questions:
+> 
+> “Can you show me two recent Newton kitchens with a scope similar to mine, and provide homeowner references?”
+> 
+> “Who designs the kitchen, who handles structural work, and who is contractually responsible for construction?”
+> 
+> “What is included in the initial budget—and what remains an allowance or exclusion?”
+> 
+> “What design fees are due before we have a construction price, and what documents do we receive?”
+> 
+> “Who will manage the job daily, and what are your current design and construction lead times?”
+> 
+> The distinction between design-build and construction-only matters here: NEDC, for example, explicitly publishes an integrated process from space evaluation and drawings through construction and warranty. Ask every candidate to explain its own arrangement just as clearly rather than assuming the label means the same thi
+
+Sources: <https://www.nedesignbuild.com/home-remodeling-newton/>, <https://www.kitchencornerstones.com/our-story>, <https://www.homebuilderdigest.com/the-best-kitchen-remodeling-contractors-in-newton-massachusetts/>, <https://pro-ne.org/contractors/steveworks-llc/>
 
 ### best bathroom remodeling companies in Wellesley MA
 
@@ -231,6 +634,137 @@ _bath-wellesley-best · bath · Wellesley · best · core_
 
 Sources: <https://www.houzz.com/professionals/kitchen-and-bath-remodelers/wellesley-ma-us-project-type-bathroom-remodeling-probr1-bo~t_11825~r_4954738~sv_29156?fi=30>, <https://covebath.com/>, <https://www.jmconstructionco.com/bathroom-remodeling-wellesley-lp/>, <https://www.refinedren.com/service-areas/wellesley-ma>, <https://colonyhome.com/bathroom-and-kitchen-remodeling-in-wellesley-ma/>
 
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Mono Construction LLC, Refined Renovations, Cove Bath, YD Construction Inc, Sun Shore Construction · OOTW: not mentioned
+
+> AI Mode Conversation: best bathroom remodeling companies in Wellesley MA
+> best bathroom remodeling companies in Wellesley MA
+> Terms
+> 2 km 
+> When remodeling a bathroom in Wellesley, the best contractor depends on whether you are looking for a rapid, streamlined turnaround, an upfront fixed-price package, or a fully customized luxury design-build experience.
+> Top Bathroom Remodeling Contractors in Wellesley
+> Mono Construction LLC
+> 5.0
+> (104)
+> Bathroom remodeler
+> Open21 Westerly St
+> Directions
+> Why choose them: A highly praised, locally based contractor directly in Wellesley known for exceptional craftsmanship and reliable timelines. Clients frequently commend them for sending out prompt, transparent project estimates and keeping pricing highly reasonable while executing flawless tile work and fixtures.
+> Refined Renovations Wellesley
+> 5.0
+> (5)
+> Contractor
+> Open184 Worcester St
+> Directions
+> Why choose them: An award-winning design-build firm with a dedicated local studio right on Worcester Street. They are an ideal fit for homeowners looking for comprehensive, high-end master suite transformations. They completely manage the architectural design, construction, and interior styling—including sourcing curated cabinetry, custom lighting, and designer materials.
+> Cove Bath
+> 5.0
+> (13)
+> Bathroom remodeler
+> OpenNeedham, MA
+> Directions
+> Why choose them: Known for offering a modern, digital-first remodeling experience with upfront, transparent fixed pricing tiers ($25K, $30K, and $40K packages). Operating out of nearby Needham, they provide instant virtual estimates and guarantee a rapid 1-to-2 week construction timeline from demolition to final walkthrough, completely eliminating hidden fees.
+> YD Construction Inc
+> 5.0
+> (122)
+> Bathroom remodeler
+> OpenWayland, MA
+> Directions
+> Why choose them: Boasting an immaculate reputation across MetroWest, they are widely recognized for remarkably efficient turnarounds without sacrificing build quality. They have a proven track record of finishing full bathroom remodels—including intricate tile work, glass shower enclosures, vanities, and heated flooring—in as little as 10 days.
+> Sun Shore Construction
+> 4.9
+> (49)
+> General contractor
+> OpenNeedham, MA
+> Directions
+> Why choose them: A fully licensed, Asian-owned general contractor that excels at modernizing older spaces while respecting strict client budgets. They provide full multi-lingual project management (English and Chinese) and specialize in converting tight, historic bathrooms into sleek, functional layouts within predictable 3-week timeframes. 
+> covebath.com
+>  +3
+> Wellesley Regulatory and Permitting Insights
+> Because Wellesley enforces specific local building codes, navigating the town’s bylaws is an essential step in planning your project:
+> Permit Requirements: Simple interior structural configurations, plumbing re-routing, and electrical updates require standard building permits through the town. However, localized gut renovations that do not alter the exterior envelope are exempt from formal Historic District hearings. 
+> housecraftwork.com
+> Historic Districts: If your bathroom remodel requires moving or enlarging an exterior window on a property located inside the Cottage Street District or any single-building historic zones, that specific layout change must be reviewed and approved by the Wellesley Historic District Commission. 
+> housecraftwork.com
+> To help narrow down these options, could you tell me a bit more about your ideal timeline, your estimated budget, or whether you are looking for a simple refresh versus a complete luxury layout change?
+> To get more features, update your settings
+> Sponsored
+> To find more companies that can help with your project, you can connect with top-rated remodeling pros in your area.
+> Angi
+> Top Rated Remodeling Pros - Bathroom Remodelling Companies - Just Enter Your Zip
+> Your home is your biggest investment - protect it by hiring approved remodeling pros.
+> housecraftwork.com
+> Bathroom remodeling in Wellesley, MA - HouseCraft LLC
+> If the new bath needs a window enlarge
+
+**perplexity** · firms: Prestige Kitchen & Bath, Tom Curren Companies, Refined Renovations, Essex Restoration, Jacuzzi Bath Remodel by Capital · OOTW: not mentioned
+
+> For bathroom remodeling in Wellesley, I’d start with Prestige Kitchen & Bath, Tom Curren Companies, and Refined Renovations—three options worth comparing for a full renovation. For a shower or tub replacement rather than a complete remodel, Jacuzzi Bath Remodel by Capital is a more targeted option. All explicitly advertise service in Wellesley, but there isn’t enough consistent independent review evidence to declare one universally “best.”
+> prestigekb
+> +3
+> 
+> Best companies to shortlist
+> Company	Best fit	Why consider it
+> Prestige Kitchen & Bath	Design-focused bathroom remodels with a nearby showroom	Its Needham Heights location is convenient to Wellesley, and the company specifically offers kitchen and bath design and remodeling for Wellesley homeowners. A sensible starting point if you want help coordinating the room’s design and selections. 
+> prestigekb
+> 
+> Tom Curren Companies	Full-service remodeling and related finish work	Offers Wellesley bathroom renovations covering baths, showers, vanities, cabinetry, painting, and custom carpentry. It also appears in Best Pick Reports’ bathroom-remodeling directory, which lists it as licensed and insured; that is a useful screening signal, not a substitute for your own verification. 
+> tomcurrencompanies
+> +1
+> 
+> Refined Renovations	Higher-end primary bathrooms and custom features	Advertises Wellesley bathroom design-build services including walk-in showers, freestanding tubs, heated flooring, and custom storage. Its published scope also addresses waterproofing, ventilation, and permitting. 
+> refinedren
+> 
+> Essex Restoration	Extensive renovations involving older plumbing, wiring, or layout changes	Its Wellesley service page describes everything from guest-bath updates to down-to-the-studs reconstruction, including supply lines, drains, wiring, ventilation, and shower waterproofing. It says work is priced line by line before construction. 
+> essexrestoration
+> 
+> Jacuzzi Bath Remodel by Capital	Tub-to-shower conversions and shower/tub replacement	Focuses on Jacuzzi bathtub and shower systems and conversions, with some installations advertised as taking as little as one day. This is a different scope from a fully custom, whole-room bathroom renovation. 
+> bathmo
+> Contact details
+> 
+> Prestige Kitchen & Bath: 14 Charles Street, Needham Heights; 781-670-3909.
+> prestigekb
+> 
+> Tom Curren Companies: 225 Riverview Avenue, Suite B1, Auburndale; 617-969-4900.
+> tomcurrencompanies
+> 
+> Refined Renovations: Lists a Wellesley office by appointment; 978-809-3221.
+> refinedren
+> 
+> Essex Restoration: 978-658-6300.
+> essexrestoration
+> 
+> Jacuzzi Bath Remodel by Capital: 354 Turnpike Street, Suite 303, Canton; 617-319-1225.
+> bathmo
+> 
+> How I’d narrow the list
+> 
+> For a complete bathroom remodel, my suggested first three consultations are Prestige, Tom Curren, and Refined Renovations: they offer a useful comparison across nearby design support, broad remodeling capabilities, and luxury custom work, respectively. For a major gut renovation, add Essex; for a limited tub/shower project, compare Capital separately so you aren’t comparing different scopes of work.
+> prestigekb
+> +4
+> 
+> Before selecting a contractor, request:
+> 
+> Two recent bathroom references in Wellesley or nearby towns, ideally with a similar scope.
+> 
+> An itemized proposal identifying demolition, plumbing, electrical, tile, fixtures, glass, permits, and allowances.
+> 
+> A written explanation of the waterproofing system, responsibility for inspections, and workmanship warranty.
+> 
+> Current registration/license and insurance documentation, plus a payment schedule and change-order terms.
+> 
+> Treat this as a shortlist for interviews, not a verified ranking of workmanship or current availability. The strongest choice will depend on whether you need a straightforward replacement or a custom renovation involving layout and infrastructure changes.
+> 
+> 10 sources
+> Show me how to compare them
+> What questions should I ask contractors
+> What is the average cost of a bathroom remodel
+> Tell me more about Prestige Kitchen and Bath
+> How do I chec
+
+Sources: <https://www.prestigekb.com/kitchen-bath-remodeling-design-wellesley-ma>, <https://www.refinedren.com/service-areas/wellesley-ma>, <https://www.essexrestoration.com/areas-we-serve/wellesley-home-remodeling-contractors/>, <https://www.bathmo.com/wellesley-ma>, <https://tomcurrencompanies.com/service-area/wellesley>
+
 ### who should I hire for a home addition in Needham MA
 
 _addition-needham-hire · addition · Needham · hire · core_
@@ -240,6 +774,74 @@ _addition-needham-hire · addition · Needham · hire · core_
 > For a home addition in Needham, MA, a few contractors come up repeatedly in search results and have established track records. Colony Home Improvement is a design-build remodeler with more than 40 years of Massachusetts experience that handles additions from architectural planning and engineering through construction, and it markets specifically to Needham, including two-story additions. Kneeland Construction is a family-owned builder with 40+ years of experience in Greater Boston that designs and builds additions, second-story additions, dormers and in-law suites and handles design, permitting and construction end to end. Morse Constructions, a Boston-area design-build firm and Best of Houzz winner (4.8 stars, 51 reviews), lists 29 Needham projects on Houzz. Michael Hally Design is an award-winning design firm rated 5.0 with 53 reviews and 51 Needham-area projects. PionArch LLC is a design-and-construction company specializing in additions, garage additions and sun rooms throughout Greater Boston. Hillcrest Development is a Needham-based general contractor offering room additions and new construction. For a Needham addition, start by getting proposals from two or three of these, confirming each holds a Massachusetts CSL and HIC registration, and asking to see completed additions in town; Needham's zoning (lot coverage, setbacks) often shapes what is feasible, so a firm that handles permitting is valuable.
 
 Sources: <https://colonyhome.com/our-services/home-addition-builder-in-needham/>, <https://www.kneelandconstruction.com/post/home-additions-second-stories-in-law-suites-in-needham-ma>, <https://www.houzz.com/professionals/adu-contractors/needham-ma-us-probr0-bo~t_34256~r_4945055>, <https://pionarch.com/service-area/home-additions-needham-ma/>, <https://www.hillcrestdevelopment.net/services>
+
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Colony Home Improvement, Inc., Fallon Custom Homes & Renovations, Hawthorn Builders, Greenmen Builders, CRC Builders · OOTW: not mentioned
+
+> AI Mode Conversation: who should I hire for a home addition in Needham MA
+> who should I hire for a home addition in Needham MA
+> For a home addition in Needham, MA, you have several highly rated, local design-build firms and general contractors to choose from. Selecting the right team depends on the scale, complexity, and architectural style of your project.
+> I would look at Colony Home Improvement, Inc. if you want an experienced, all-in-one local design-build firm, or Fallon Custom Homes & Renovations if you are planning a high-end, architecturally complex addition.
+> Terms
+> 2 km 
+> Top Recommendations for Needham Home Additions
+> Colony Home Improvement, Inc.
+> 4.5
+> (8)
+> General contractor
+> Open280 Hillside Ave
+> Directions
+> Why choose them: They are a true local design-build staple that has been serving Needham and Greater Boston since 1980. Because they handle everything from 3D floor plans and local zoning/permitting to actual construction under one roof, they are ideal for standard family room extensions, second-story bump-outs, or sunrooms.
+> Key Advantage: They specifically emphasize their expertise in navigating local Massachusetts zoning hurdles and permitting timelines.
+> Fallon Custom Homes & Renovations
+> 5.0
+> (7)
+> Custom home builder
+> Open171 Reservoir St
+> Directions
+> Why choose them: Best suited for high-end luxury additions or historical homes where matching the original architectural integrity is crucial. Reviewers praise their ability to blend complex additions seamlessly into existing blueprints.
+> Key Advantage: They feature their own in-house custom mill shop, ensuring any detailed trim work, built-ins, or architectural molding for your new space matches perfectly.
+> Hawthorn Builders
+> 5.0
+> (20)
+> Home builder
+> Open97 Chapel St #3
+> Directions
+> Why choose them: A highly reputable premier builder established in 2005 that specializes in large-scale renovations, upscale additions, and Accessory Dwelling Units (ADUs).
+> Key Advantage: They offer an ongoing, subscription-based "Home Care" maintenance service to look after your property even after the major construction wraps up.
+> Greenmen Builders
+> 4.9
+> (45)
+> Kitchen remodeler
+> Open399 Chestnut St
+> Directions
+> Why choose them: Led by Eric Byrne, this team carries an excellent local reputation for keeping projects firmly aligned with the client's initial budget and timeline. They are a great fit if your addition directly involves a major kitchen or master bathroom layout change.
+> Key Advantage: Highly personalized oversight, with the owner directly involved throughout construction.
+> CRC Builders
+> 5.0
+> (23)
+> Custom home builder
+> Open163 Highland Ave #1212
+> Directions
+> Why choose them: Known for excellent drafting, structural framing, and managing mid-to-large residential expansions.
+> Key Advantage: Clients note that their initial contract pricing stays remarkably stable with minimal unexpected cost overruns. 
+> Important Local Factors for Needham Renovations
+> Zoning and Setbacks: Needham has strict zoning bylaws regarding lot coverage and property line setbacks. Choosing a design-build firm like Colony Home Improvement or Hawthorn Builders means they handle the architectural feasibility check before you sink money into blueprints. 
+> Historical Coordination: If your home is close to Needham Center or falls within a designated historic area, structural changes might require local historical commission approval. Fallon Custom Homes excels in this high-touch architectural navigation. 
+> If you'd like to narrow this down, let me know:
+> What type of addition are you planning? (e.g., master suite, second-story add-on, kitchen extension, or ADU?)
+> Do you already have architectural blueprints, or do you need a team that handles both design and construction?
+> What is the approximate age or architectural style of your current home?
+> To get more features, update your settings
+> Google
+> Greenmen Builders
+> Builders for kitchen and bathroom remodeling of homes as well as decks.
+> Google
+> Sun Shore Construction
+> Transform your home with Sun Shore Constru
+
+**perplexity**: blocked. Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account.
 
 ### best design-build remodeling firms in MetroWest Massachusetts
 
@@ -260,6 +862,81 @@ _design-build-metrowest-best · design-build · MetroWest · best · core_
 
 Sources: <https://www.jmconstructionco.com/>, <https://www.coreremodelingservices.com/>, <https://customnestbuilders.com/whole-home-remodeling/>, <https://sardinaremodeling.com/>, <https://www.taggartbuilding.com/about-us/>, <https://rdhorizonbuilders.com/design-build>, <https://remodelwerksllc.com/remodeling-construction-westborough-ma/>
 
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Modern Design & Build, Millhawlk Design & Construction, Dream Builders Home Improvement LLC, Masters Touch Design Build, Feinmann, Inc., New England Design & Construction · OOTW: not mentioned
+
+> AI Mode Conversation: best design-build remodeling firms in MetroWest Massachusetts
+> best design-build remodeling firms in MetroWest Massachusetts
+> Here are the top-rated design-build remodeling firms serving the MetroWest, Massachusetts area, categorized by their primary locations and specialized areas of focus.
+> Terms
+> 10 km 
+> Firms Based Centrally in MetroWest (Framingham & Holliston)
+> Modern Design & Build
+> 5.0
+> (75)
+> Contractor
+> OpenHolliston, MA
+> Directions
+> Based in Holliston, this contractor specializes heavily in modern kitchen and bathroom remodeling. Clients note that they excel at translating vague design visions into high-quality physical spaces while managing adjustments smoothly.
+> Millhawlk Design & Construction
+> 4.8
+> (25)
+> Construction company
+> OpenFramingham, MA
+> Directions
+> An award-winning, women-owned firm located in Framingham. They house a complete team of architects, structural engineers, and builders under one roof, making them ideal for heavy structural alterations, layout changes, additions, or basement completions.
+> Dream Builders Home Improvement LLC
+> 4.9
+> (29)
+> Contractor
+> OpenFramingham, MA
+> Directions
+> Centrally operating out of Framingham, this Latino-owned firm handles broad residential renovations, additions, custom home construction, and outdoor builds like high-end decks and porches. Their reviews highlight creative architectural solutions to unusual layout challenges. 
+> Premium Firms Serving MetroWest Border Towns (Lexington & Medway)
+> Masters Touch Design Build
+> 4.8
+> (98)
+> Custom home builder
+> OpenMedway, MA
+> Directions
+> Located in Medway, this is an award-winning custom home building and high-end remodeling firm. They are highly recommended for large-scale, seamless residential updates and luxury kitchen/bath overhauls where architectural precision is required.
+> Feinmann, Inc.
+> 4.8
+> (24)
+> Remodeler
+> OpenLexington, MA
+> Directions
+> A 100% employee-owned architectural design and construction firm based in neighboring Lexington that frequently services premium MetroWest properties. They specialize in luxury whole-house transformations, high-end kitchens, and multi-story rear additions.
+> New England Design & Construction
+> 5.0
+> (33)
+> Architect
+> OpenLexington, MA
+> Directions
+> Also based out of Lexington but widely serving the Greater Boston and MetroWest sectors. They focus on sustainable design-build methodologies for major residential flips, offering a notable five-year warranty on all construction craftsmanship. 
+> To tailor these options, what type of project are you planning (e.g., kitchen remodel, structural addition, whole-home renovation), and what is your approximate timeline?
+> To get more features, update your settings
+> Sponsored
+> To compare more design-build firms in your area, you can use a service like the one below.
+> Houzz
+> Compare Design Build Firms - Local Design Build Firms - Read Blog
+> Right for the job, right nearby. Those are the kinds of home pros you’ll find on Houzz.
+> Google
+> Modern Design & Build
+> 531 Concord St, Holliston, MA 01746 · Professional design-and-build contractor specializing in kitchen and bathroom remodeling.
+> Google
+> Millhawlk Design & Construction – Home Remodeling & Construction Company
+> 44 Dinsmore Ave #404, Framingham, MA 01702 · Millhawlk Design & Construction is a licensed general contractor and full-service con...
+> Google
+> Dream Builders Home Improvement LLC
+> 150 Speen St #301, Framingham, MA 01701 · Dream Builders Home Improvement LLC provides residential services, house building, decks...
+> Show all
+> Skip to previous prompt
+> AI Mode response is ready
+
+**perplexity**: blocked. Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account.
+
 ### best design-build remodeling firms in Waltham MA
 
 _design-build-waltham-best · design-build · Waltham · best · core_
@@ -270,6 +947,81 @@ _design-build-waltham-best · design-build · Waltham · best · core_
 
 Sources: <https://www.houzz.com/professionals/design-build/waltham-ma-us-probr0-bo~t_11793~r_4954380>, <https://www.houzz.com/professionals/home-remodeling/waltham-ma-us-probr0-bo~t_34257~r_4954380>, <https://www.morseconstructions.com/service-areas/waltham-ma>, <https://www.harveyremodeling.com/design-build-waltham/>, <https://baystateremodeling.com/neighborhoods/waltham>
 
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Byggmeister, Rebel Builders, Bertola Custom Homes & Remodeling, New England Design & Construction, Bay State Design & Construction, Boston Building Concepts · OOTW: not mentioned
+
+> AI Mode Conversation: best design-build remodeling firms in Waltham MA
+> best design-build remodeling firms in Waltham MA
+> Waltham, Massachusetts, has several outstanding design-build remodeling firms that manage projects from initial concept through construction. Choosing a design-build firm ensures that your designer and contractor work under one roof, keeping communication seamless and budgets realistic. 
+> Here are the top options based right in Waltham and the immediate surrounding area:
+> Terms
+> 2 km 
+> Top Firms Located in Waltham
+> Byggmeister
+> 5.0
+> (12)
+> Contractor
+> OpenBanks Square
+> Directions
+> Specialty: Adapting older and historic homes. They are widely respected for combining historic preservation with 21st-century environmental sustainability and energy efficiency.
+> Why choose them: If you own a classic New England home and want a team that understands historic framing, moisture management, and eco-friendly retrofits.
+> Rebel Builders
+> 4.8
+> (16)
+> Custom home builder
+> Open332 2nd Ave #2
+> Directions
+> Specialty: Comprehensive residential design-build, partial to whole-house remodels, and second-story additions. It is a prominent Latinx, woman-owned and operated firm.
+> Why choose them: Known for highly collaborative design phases. They excel at turning vague aesthetic goals into highly functional, gorgeous layouts while managing trades completely.
+> Bertola Custom Homes & Remodeling
+> 4.8
+> (16)
+> Kitchen remodeler
+> OpenBanks Square
+> Directions
+> Specialty: Full home transformations, luxury kitchens, structural bathroom renovations, and interior staircase or porch relocation.
+> Why choose them: Great if you are looking for a clean, highly punctual team that stays on top of municipal permitting and leaves job sites immaculate daily. 
+> Premier Nearby Firms Serving Waltham
+> New England Design & Construction (NEDC)
+> 5.0
+> (33)
+> Architect
+> OpenLexington, MA
+> Directions
+> Specialty: High-end architectural design-build and sustainable residential remodeling.
+> Why choose them: Located right next door in Lexington, they are one of the most prominent sustainable residential design firms in Greater Boston. They offer a rare 5-year structural warranty on all completed projects.
+> Bay State Design & Construction
+> 5.0
+> (4)
+> Construction company
+> OpenLexington, MA
+> Directions
+> Specialty: Full additions, in-law suites, and Accessory Dwelling Units (ADUs).
+> Why choose them: They feature a specialized "FlexUnit" service that completely automates complex local zoning laws, building permits, and town designs in-house.
+> Boston Building Concepts
+> 4.9
+> (40)
+> General contractor
+> OpenWatertown, MA
+> Directions
+> Specialty: Multi-story home additions (such as adding a second floor to a Cape-style home) and open-concept structural remodeling.
+> Why choose them: Operating out of Watertown, they work hand-in-hand with custom architects and manage everything from foundation underpinning to final finish carpentry. 
+> How to Narrow Down Your Choice
+> When reaching out to firms for consultations, keep these structural considerations in mind:
+> Age of Home: If your house was built before 1950, Byggmeister's historic background is exceptionally tailored to handling unexpected structural surprises. 
+> Scope of Addition: For complex additions that alter your home's footprint or require zoning relief, Bay State Design & Construction or Boston Building Concepts have robust portfolios dealing with local municipal codes. 
+> Green Building: If lower utility footprints and sustainable materials are your priority, highlight that early with NEDC or Byggmeister. 
+> To help match you with the best fit, let me know: What type of space are you remodeling (e.g., kitchen, historical restoration, whole-house addition)? Knowing your rough timeline or if you have specific sustainability goals can also help narrow down the list. 
+> To get more features, update your settings
+> Sponsored
+> To compare more local design-build firms, you can explore options on Houzz.
+> Houzz
+> Compare Design Build Firms - Local Design Build Firms - Read Blog
+> Right for the job, right ne
+
+**perplexity**: blocked. Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account.
+
 ### recommend a design-build remodeler along Route 128 near Lexington MA
 
 _design-build-lexington-hire · design-build · Lexington · hire · core_
@@ -279,6 +1031,72 @@ _design-build-lexington-hire · design-build · Lexington · hire · core_
 > For a design-build remodeler along the Route 128 corridor near Lexington, a few firms come up consistently. Feinmann, Inc. is based in Lexington Center (27 Muzzey Street), has been a leading Greater Boston design-build firm since 1987, and has won over 100 awards for kitchens, baths, additions, and whole-home remodels. New England Design & Construction (NEDC) has an office at 342 Bedford St in Lexington and describes its service area as the Route 128 radius around Boston, specializing in whole-home remodels, additions, and complex kitchens. Morse Constructions is a full design-build firm operating from Woburn since 1976 and explicitly serves the Route 128 corridor including Lexington, Waltham, and Burlington. Renovation and Design Company (Burlington) is a design-build firm with 17+ years of experience serving Lexington, Waltham, and Burlington. Other options include Genesis Construction and Development (design-build with expertise in Revolutionary-era and mid-century homes), Harvey Remodeling (design/build in Waltham), and Capstone Design Partners. Feinmann and NEDC are the most locally rooted choices; get two or three proposals and compare their design-phase fees and processes.
 
 Sources: <https://www.feinmann.com/services/home-remodeling-additions-lexington-ma/>, <https://www.nedesignbuild.com/home-remodeling-lexington/>, <https://www.yelp.com/biz/new-england-design-and-construction-lexington>, <https://www.morseconstructions.com/service-areas/waltham-ma>, <https://www.houzz.com/professionals/design-build-firms/renovation-and-design-company-pfvwus-pf~1670624298>, <https://www.gcdinc.us/ma/lexington/>, <https://www.harveyremodeling.com/service-area/design-build-waltham>
+
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: New England Design & Construction, Feinmann, Inc., Gold Beech Construction, Custom Creations Contracting LLC, Aureli Construction · OOTW: not mentioned
+
+> AI Mode Conversation: recommend a design-build remodeler along Route 128 near Lexington MA
+> recommend a design-build remodeler along Route 128 near Lexington MA
+> If you are looking for a design-build firm right along Route 128 that can handle everything from architecture and interior design to structural framing and final finishes, the Lexington area has some exceptional options.
+> I would recommend checking out New England Design & Construction or Feinmann, Inc. as your top choices since they are fully established design-build teams located directly within Lexington.
+> Terms
+> 1 km 
+>  15 min
+> Top Recommendations in Lexington
+> New England Design & Construction
+> 5.0
+> (33)
+> Architect
+> Open342 Bedford St
+> Directions
+> Located right on Bedford Street, they are highly regarded for their sustainable design practices and transparent design-build process. They are incredibly confident in their craftsmanship, offering a standout five-year warranty on all of their renovation work. Past clients consistently highlight how smooth they make complex architectural layouts feel.
+> Feinmann, Inc.
+> 4.8
+> (24)
+> Remodeler
+> Open27 Muzzey St 1st floor
+> Directions
+> Situated on Muzzey Street, Feinmann is a 100% employee-owned luxury firm that has been serving the Route 128 communities since 1987. Because they keep architecture, interior design, and construction completely in-house, you avoid ever having to play middleman between a separate designer and a general contractor. They have serious local pedigree, having won multiple PRISM and regional NARI awards for their whole-home transformations and high-end kitchens.
+> Gold Beech Construction
+> 5.0
+> (11)
+> Construction company
+> Open9 Meriam St Ste 18
+> Directions
+> Based out of Meriam Street, this is a fantastic, full-service residential design-build firm specializing in modernizing spaces like upstairs levels, bathrooms, and basements. Clients heavily praise their thorough pre-construction and layout planning process, noting that it saves massive headaches once the actual hammering begins. 
+> Strong Nearby Alternatives along the 128 Corridor
+> If you want to cast a slightly wider net just a few exits up or down Route 128, these two firms have a proven track record of remodeling homes right in Lexington:
+> Custom Creations Contracting LLC
+> 5.0
+> (24)
+> General contractor
+> OpenWoburn, MA
+> Directions
+> Located just a quick drive up Route 128 in Woburn, they specialize in major structural changes, such as knocking out load-bearing walls to build sweeping, open-concept kitchen and living spaces. They are heavily praised for excellent communication, especially when navigating tricky insurance or water damage restorations.
+> Aureli Construction
+> 4.9
+> (40)
+> General contractor
+> OpenMedford, MA
+> Directions
+> Based down in Medford but frequently remodeling homes directly in Lexington, this family-run team has been around since 1999. They are an excellent call if your project involves a second-story addition, dormer, or accessory dwelling unit (ADU), as their design-build workflow is highly optimized for pulling complex permits and seamlessly blending massive additions into the original architecture of a house. 
+> To help me narrow down the perfect match for your project, what type of remodel are you planning (e.g., a kitchen, a master suite, or a structural addition)? If you have a specific architectural style or project timeline in mind, let me know!
+> To get more features, update your settings
+> Google
+> New England Design & Construction
+> 342 Bedford St, Lexington, MA 02420 · Longtime firm specializing in sustainable design and construction, including kitchen remodel...
+> Google
+> Feinmann, Inc.
+> 27 Muzzey St 1st floor, Lexington, MA 02421 · Feinmann is a 100% employee-owned design-build firm in Lexington, Massachusetts, ser...
+> Google
+> Gold Beech Construction
+> 9 Meriam St Ste 18, Lexington, MA 02420 · Gold Beech Construction is a full-service residential design-build company based in Lexi...
+> Show all
+> Skip to previous prompt
+> AI Mode response is ready
+
+**perplexity**: blocked. Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account.
 
 ### Out of the Woods Construction Waltham MA reviews
 
@@ -298,6 +1116,58 @@ _brand-brand · brand · n/a · brand · core_
 > Bottom line: the public review footprint is small. The one negative Yelp review is over a decade old, while the BBB record and recent Nextdoor comments are clean and positive. Ask for recent references and check the firm's Houzz/Google profiles, which did not surface in search results.
 
 Sources: <https://www.bbb.org/us/ma/waltham/profile/general-contractor/out-of-the-woods-construction-cabinetry-inc-0021-56021>, <https://www.yelp.com/biz/out-of-the-woods-construction-and-cabinetry-waltham>, <https://reviews.birdeye.com/out-of-the-woods-construction-cabinetry-inc-374106144>, <https://nextdoor.com/pages/out-of-the-woods-construction-cabinetry-inc-arlington-ma-1/>, <https://www.outofthewoodsconstruction.com/testimonials>
+
+**chatgpt**: blocked. Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account.
+
+**google-ai-mode** · firms: Out of the Woods Construction & Cabinetry · OOTW: rank 1
+
+> AI Mode Conversation: Out of the Woods Construction Waltham MA reviews
+> Out of the Woods Construction Waltham MA reviews
+> Out of the Woods Construction & Cabinetry, Inc. in Waltham, MA, holds an overall highly positive reputation online, generally maintaining a perfect 5 out of 5-star rating across several review platforms. Customers consistently praise their meticulous planning, transparent design-build process, and high-quality craftsmanship. However, there are a very limited number of critical reviews regarding pricing and communication styles. 
+> OUT OF THE WOODS CONSTRUCTION
+>  +4
+> Review Breakdown by Platform
+> The company's footprint across major consumer rating and contractor networks includes:
+> Google Business Profile: 5.0 out of 5 stars based on local customer feedback. 
+> OUT OF THE WOODS CONSTRUCTION
+>  +1
+> Houzz: Highly rated with clients highlighting stress-free project execution, reliable timelines, and respectful sub-contractors. 
+> Houzz
+> BuildZoom: Holds a 5-star sentiment from detailed profiles showcasing collaborative kitchen design and strong communication with the core team. 
+> Birdeye: 5.0 out of 5 stars from compiled customer ratings. 
+> reviews.birdeye.com
+> Yelp: Features mixed feedback, combining glowing multi-room project recommendations with a highly critical 1-star complaint warning of deceptive pricing and poor subcontracting experiences. 
+> Yelp
+> Better Business Bureau: Registered as a non-BBB accredited general contractor with no active complaints on file. 
+> Better Business Bureau
+> What Customers Say
+> Pros & Common Praise	Cons & Complaints
+> Flawless execution: Projects consistently finish on time and strictly on budget.	Premium cost: Total pricing can trend higher than standard discount contractors.
+> Highly collaborative: Customers interact directly with owner Greg Antonioli and the design team.	Single-source complaints: A past review cited frustration with subcontractor vetting and "bait-and-switch" pricing.
+> Polite & clean crews: Job sites are swept daily and workers are highly considerate of neighbors.	
+> Community Experiences
+> Local homeowners on community networks highlight their long-term structural expertise and professional handling of city permits:
+> “Out of the woods is amazing. I did two large projects with them and they've done beautiful work. Their process is top notch too.”
+> Nextdoor
+> If you want, tell me:
+> What type of remodeling project (kitchen, bathroom, home addition) you are planning?
+> What specific aspect of a contractor (budget precision, speed, design help) is most important to you? 
+> OUT OF THE WOODS CONSTRUCTION
+> I can help you evaluate if they are the right fit for your home.
+> OUT OF THE WOODS CONSTRUCTION
+> Testimonials — OUT OF THE WOODS CONSTRUCTION
+> Major projects, home additions, period architecture preservation, kitchen/bathroom remodels, custom woodwork/bookshelves, and fire...
+> Yelp
+> OUT OF THE WOODS CONSTRUCTION & CABINETRY - Yelp
+> This company and owner is impossible to deal with; slow and deceptive. They tried a bait and switch on pricing and when they were ...
+> reviews.birdeye.com
+> Out of the Woods Construction & Cabinetry, Inc. - 2 Reviews
+> Out of the Woods Construction & Cabinetry, Inc. has a 5 star rating with 2 reviews. It will open tomorrow at 7:00 a.m.
+> Show all
+> Skip to previous prompt
+> AI Mode response is ready
+
+**perplexity**: blocked. Perplexity (signed out) returned 'Sign up and repeat your request' after three answered queries; a retry about 25 minutes later was walled again. Re-run from a signed-in Perplexity account.
 
 ### best kitchen remodeling design-build firms in Wellesley MA
 
