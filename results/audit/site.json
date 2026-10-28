@@ -1,0 +1,1721 @@
+{
+  "domain": "outofthewoodsconstruction.com",
+  "fetched_at": "2026-10-28T13:54:57",
+  "robots": {
+    "ai2bot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "ai2bot-dolma": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "aihitbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "amazonbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "anthropic-ai": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "applebot-extended": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "bytespider": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "ccbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "claudebot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "cohere-ai": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "cohere-training-data-crawler": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "duckassistbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "facebookbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "google-extended": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "googleother": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "googleother-image": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "googleother-video": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "gptbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "img2dataset": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "meta-externalagent": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "mycentralaiscraperbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "omgili": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "omgilibot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "quora-bot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "tiktokspider": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "youbot": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "adsbot-google": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "adsbot-google-mobile": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "adsbot-google-mobile-apps": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    },
+    "*": {
+      "allow": [
+        "/api/ui-extensions/"
+      ],
+      "disallow": [
+        "/config",
+        "/search",
+        "/account$",
+        "/account/",
+        "/commerce/digital-download/",
+        "/api/",
+        "/static/",
+        "/*?author=*",
+        "/*&author=*",
+        "/*?tag=*",
+        "/*&tag=*",
+        "/*?month=*",
+        "/*&month=*",
+        "/*?view=*",
+        "/*&view=*",
+        "/*?format=json",
+        "/*&format=json",
+        "/*?format=page-context",
+        "/*&format=page-context",
+        "/*?format=main-content",
+        "/*&format=main-content",
+        "/*?format=json-pretty",
+        "/*&format=json-pretty",
+        "/*?format=ical",
+        "/*&format=ical",
+        "/*?reversePaginate=*",
+        "/*&reversePaginate=*"
+      ]
+    }
+  },
+  "ai_crawlers": {
+    "GPTBot": "allowed",
+    "ChatGPT-User": "unspecified",
+    "OAI-SearchBot": "unspecified",
+    "PerplexityBot": "unspecified",
+    "ClaudeBot": "allowed",
+    "Claude-SearchBot": "unspecified",
+    "Google-Extended": "allowed",
+    "Bingbot": "unspecified"
+  },
+  "sitemap_found": true,
+  "llms_txt_found": false,
+  "pages": [
+    {
+      "url": "https://www.outofthewoodsconstruction.com/blog",
+      "title": "Blog | Out of the Woods Construction & Cabinetry, Inc. | Waltham, MA \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Join Out of the Woods Construction & Cabinetry, Inc. for the ultimate guide to home remodeling. Get inspired with tips and trends for every room in your home.",
+      "h1": "",
+      "word_count": 135,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/blog",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/bathrooms",
+      "title": "Bathroom Remodeling Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "See our bathroom remodeling projects across Greater Boston, where design-build planning brings together tile, cabinetry, and fixtures that suit each home.",
+      "h1": "BATHROOMS",
+      "word_count": 578,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry",
+        "whole-house"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/sites",
+      "title": "Multi-Project Home Remodeling Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore Greater Boston homes we\u2019ve remodeled through multiple projects over the years, building lasting relationships as our clients\u2019 homes and needs evolve.",
+      "h1": "MULTI-PROJECT SITES",
+      "word_count": 739,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/what-we-do",
+      "title": "Our Design-Build Remodeling Process | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Learn how our design-build process brings planning, design, and construction together for home remodeling in Greater Boston, from first conversation to completion.",
+      "h1": "THE DESIGN-BUILD PROCESS",
+      "word_count": 1308,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Boston",
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "design-build",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/testimonials",
+      "title": "Client Testimonials & Remodeling Reviews | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Read what Greater Boston homeowners say about remodeling with Out of the Woods, from working with our team to living in their finished spaces.",
+      "h1": "CLIENT TESTIMONIALS",
+      "word_count": 1154,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/rkitchens",
+      "title": "Kitchen Remodeling Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore our design-build kitchen remodeling portfolio in Greater Boston, with custom cabinetry, thoughtful layouts, and craftsmanship tailored to each home.",
+      "h1": "KITCHENS",
+      "word_count": 653,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/living-rooms",
+      "title": "Living Room Remodeling Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore living room remodeling projects across Greater Boston, with custom woodwork, architectural details, and spaces designed around the way you live.",
+      "h1": "LIVING-ROOMS",
+      "word_count": 467,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Boston",
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/home",
+      "title": "OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Out of the Woods Construction & Cabinetry provides custom home remodeling, design-build, additions, kitchens, bathrooms, and cabinetry throughout Greater Boston. Trusted craftsmanship since 1992.",
+      "h1": "Remodel . . . be happy.",
+      "word_count": 1551,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Boston",
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "design-build",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/home",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work",
+        "https://www.outofthewoodsconstruction.com/fall-lookbook-adirondack"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+      "title": "Additions & Exteriors Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore home additions and exterior renovations across Greater Boston, from porches and decks to new living spaces designed to feel like part of your home.",
+      "h1": "ADDITIONS &  EXTERIORS",
+      "word_count": 780,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham",
+        "Arlington"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry",
+        "whole-house"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/bedrooms",
+      "title": "Bedroom Remodeling Portfolio | Massachusetts \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore bedroom remodeling projects across Greater Boston, with thoughtful use of space and architectural details that feel at home in each house.",
+      "h1": "BEDROOMS",
+      "word_count": 302,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/media",
+      "title": "In the Media | Out of the Woods Construction \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore articles and media coverage featuring Out of the Woods Construction, our remodeling work, and perspectives on design and construction in Greater Boston.",
+      "h1": "",
+      "word_count": 187,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "design-build",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/contact-us",
+      "title": "Contact Our Design-Build Team | Out of the Woods \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "A better home starts with a conversation. Tell us about your kitchen remodel, home addition, or whole-home renovation in Greater Boston. Let\u2019s see what\u2019s possible.",
+      "h1": "",
+      "word_count": 211,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/remodeling/cabinetry",
+      "title": "Cabinetry | Out of the Woods Construction & Cabinetry, Inc. | Waltham, MA \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Discover the art of custom cabinetry with Out of the Woods Construction & Cabinetry, Inc. Tailored designs and expert installation for a luxurious home upgrade.",
+      "h1": "Thoughtful Custom Cabinetry Solutions for Everyday Living",
+      "word_count": 515,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/remodeling/cabinetry",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work",
+        "https://www.outofthewoodsconstruction.com/new-page-1"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/our-team-ootw",
+      "title": "Meet Our Team | Waltham, MA \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Meet the experienced team behind Out of the Woods Construction & Cabinetry, providing trusted home remodeling, design-build, and custom cabinetry services throughout Greater Boston.",
+      "h1": "OUR TEAM",
+      "word_count": 1665,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Boston",
+        "Waltham",
+        "Arlington"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/privacy-policy-1",
+      "title": "Privacy Policy | Out of the Woods Construction \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Learn how Out of the Woods Construction collects, uses, and protects personal information when you visit our website or contact our team.",
+      "h1": "",
+      "word_count": 249,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/privacy-policy-1",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/terms-conditions-1",
+      "title": "Terms & Conditions | Learn More, Get Started Today \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Browse Out Of The Woods Construction terms and conditions, detailing our policies on services, employee communications, and privacy for construction projects in Waltham, MA.",
+      "h1": "",
+      "word_count": 277,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/terms-conditions-1",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work",
+        "https://outofthewoodsconstruction.com/privacy-policy-1"
+      ]
+    },
+    {
+      "url": "https://www.outofthewoodsconstruction.com/opt-in",
+      "title": "Opt In | Transform Your Home Today \u2013 Contact Us \u2014 OUT OF THE WOODS CONSTRUCTION",
+      "meta_description": "Explore Out of the Woods Construction for expert home renovation and remodeling services, including kitchens, bathrooms, and exterior additions. Contact us today.",
+      "h1": "",
+      "word_count": 245,
+      "jsonld_types": [
+        "WebSite"
+      ],
+      "towns_named": [
+        "Waltham"
+      ],
+      "services_named": [
+        "kitchen",
+        "bath",
+        "addition",
+        "cabinetry"
+      ],
+      "has_faq": false,
+      "internal_links": [
+        "https://www.outofthewoodsconstruction.com/cart",
+        "https://www.outofthewoodsconstruction.com/opt-in",
+        "https://www.outofthewoodsconstruction.com/",
+        "https://www.outofthewoodsconstruction.com/sites",
+        "https://www.outofthewoodsconstruction.com/living-rooms",
+        "https://www.outofthewoodsconstruction.com/bedrooms",
+        "https://www.outofthewoodsconstruction.com/rkitchens",
+        "https://www.outofthewoodsconstruction.com/bathrooms",
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors",
+        "https://www.outofthewoodsconstruction.com/what-we-do",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw",
+        "https://www.outofthewoodsconstruction.com/testimonials",
+        "https://www.outofthewoodsconstruction.com/media",
+        "https://www.outofthewoodsconstruction.com/contact-us",
+        "https://www.outofthewoodsconstruction.com/our-work"
+      ]
+    }
+  ],
+  "errors": [],
+  "robots_raw": "# Squarespace Robots Txt\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: DuckAssistBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: Meta-ExternalAgent\nUser-agent: MyCentralAIScraperBot\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Quora-Bot\nUser-agent: TikTokSpider\nUser-agent: YouBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google-Mobile-Apps\nUser-agent: *\nDisallow: /config\nDisallow: /search\nDisallow: /account$\nDisallow: /account/\nDisallow: /commerce/digital-download/\nDisallow: /api/\nAllow: /api/ui-extensions/\nDisallow: /static/\nDisallow:/*?author=*\nDisallow:/*&author=*\nDisallow:/*?tag=*\nDisallow:/*&tag=*\nDisallow:/*?month=*\nDisallow:/*&month=*\nDisallow:/*?view=*\nDisallow:/*&view=*\nDisallow:/*?format=json\nDisallow:/*&format=json\nDisallow:/*?format=page-context\nDisallow:/*&format=page-context\nDisallow:/*?format=main-content\nDisallow:/*&format=main-content\nDisallow:/*?format=json-pretty\nDisallow:/*&format=json-pretty\nDisallow:/*?format=ical\nDisallow:/*&format=ical\nDisallow:/*?reversePaginate=*\nDisallow:/*&reversePaginate=*\n\nSitemap: https://www.outofthewoodsconstruction.com/sitemap.xml\n",
+  "coverage": {
+    "service_pages": {
+      "kitchen": [
+        "https://www.outofthewoodsconstruction.com/rkitchens"
+      ],
+      "bath": [
+        "https://www.outofthewoodsconstruction.com/bathrooms"
+      ],
+      "addition": [
+        "https://www.outofthewoodsconstruction.com/remodeling/additions-exteriors"
+      ],
+      "design-build": [
+        "https://www.outofthewoodsconstruction.com/what-we-do"
+      ],
+      "cabinetry": [
+        "https://www.outofthewoodsconstruction.com/blog",
+        "https://www.outofthewoodsconstruction.com/remodeling/cabinetry"
+      ],
+      "whole-house": []
+    },
+    "town_pages": {
+      "Boston": [],
+      "MetroWest": [],
+      "Waltham": [
+        "https://www.outofthewoodsconstruction.com/blog",
+        "https://www.outofthewoodsconstruction.com/remodeling/cabinetry",
+        "https://www.outofthewoodsconstruction.com/our-team-ootw"
+      ],
+      "Newton": [],
+      "Wellesley": [],
+      "Needham": [],
+      "Lexington": [],
+      "Reading": [],
+      "Arlington": [],
+      "Belmont": [],
+      "Weston": [],
+      "Concord": []
+    },
+    "towns_anywhere": [
+      "Arlington",
+      "Boston",
+      "Waltham"
+    ],
+    "jsonld_anywhere": [
+      "WebSite"
+    ]
+  }
+}
