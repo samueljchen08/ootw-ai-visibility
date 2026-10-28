@@ -1,0 +1,325 @@
+{
+  "generated": "2026-10-28",
+  "queries": [
+    {
+      "id": "kitchen-boston-best",
+      "text": "best kitchen remodeling design-build firms in the Boston area",
+      "service": "kitchen",
+      "geo": "Boston",
+      "intent": "best",
+      "tier": "core"
+    },
+    {
+      "id": "kitchen-newton-best",
+      "text": "best kitchen remodeling design-build firms in Newton MA",
+      "service": "kitchen",
+      "geo": "Newton",
+      "intent": "best",
+      "tier": "core"
+    },
+    {
+      "id": "bath-wellesley-best",
+      "text": "best bathroom remodeling companies in Wellesley MA",
+      "service": "bath",
+      "geo": "Wellesley",
+      "intent": "best",
+      "tier": "core"
+    },
+    {
+      "id": "addition-needham-hire",
+      "text": "who should I hire for a home addition in Needham MA",
+      "service": "addition",
+      "geo": "Needham",
+      "intent": "hire",
+      "tier": "core"
+    },
+    {
+      "id": "design-build-metrowest-best",
+      "text": "best design-build remodeling firms in MetroWest Massachusetts",
+      "service": "design-build",
+      "geo": "MetroWest",
+      "intent": "best",
+      "tier": "core"
+    },
+    {
+      "id": "design-build-waltham-best",
+      "text": "best design-build remodeling firms in Waltham MA",
+      "service": "design-build",
+      "geo": "Waltham",
+      "intent": "best",
+      "tier": "core"
+    },
+    {
+      "id": "design-build-lexington-hire",
+      "text": "recommend a design-build remodeler along Route 128 near Lexington MA",
+      "service": "design-build",
+      "geo": "Lexington",
+      "intent": "hire",
+      "tier": "core"
+    },
+    {
+      "id": "brand-brand",
+      "text": "Out of the Woods Construction Waltham MA reviews",
+      "service": "brand",
+      "geo": "n/a",
+      "intent": "brand",
+      "tier": "core"
+    },
+    {
+      "id": "kitchen-wellesley-best",
+      "text": "best kitchen remodeling design-build firms in Wellesley MA",
+      "service": "kitchen",
+      "geo": "Wellesley",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-lexington-best",
+      "text": "best kitchen remodeling design-build firms in Lexington MA",
+      "service": "kitchen",
+      "geo": "Lexington",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-arlington-best",
+      "text": "best kitchen remodeling design-build firms in Arlington MA",
+      "service": "kitchen",
+      "geo": "Arlington",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-belmont-best",
+      "text": "best kitchen remodeling design-build firms in Belmont MA",
+      "service": "kitchen",
+      "geo": "Belmont",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-waltham-best",
+      "text": "best kitchen remodeling design-build firms in Waltham MA",
+      "service": "kitchen",
+      "geo": "Waltham",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-metrowest-best",
+      "text": "best kitchen remodeling design-build firms in MetroWest Massachusetts",
+      "service": "kitchen",
+      "geo": "MetroWest",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-newton-best",
+      "text": "best bathroom remodeling companies in Newton MA",
+      "service": "bath",
+      "geo": "Newton",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-needham-best",
+      "text": "best bathroom remodeling companies in Needham MA",
+      "service": "bath",
+      "geo": "Needham",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-reading-best",
+      "text": "best bathroom remodeling companies in Reading MA",
+      "service": "bath",
+      "geo": "Reading",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-weston-best",
+      "text": "best bathroom remodeling companies in Weston MA",
+      "service": "bath",
+      "geo": "Weston",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-boston-best",
+      "text": "best bathroom remodeling companies in the Boston area",
+      "service": "bath",
+      "geo": "Boston",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-newton-hire",
+      "text": "who should I hire for a home addition in Newton MA",
+      "service": "addition",
+      "geo": "Newton",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-wellesley-hire",
+      "text": "who should I hire for a home addition in Wellesley MA",
+      "service": "addition",
+      "geo": "Wellesley",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-lexington-hire",
+      "text": "who should I hire for a home addition in Lexington MA",
+      "service": "addition",
+      "geo": "Lexington",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-concord-hire",
+      "text": "who should I hire for a home addition in Concord MA",
+      "service": "addition",
+      "geo": "Concord",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-reading-hire",
+      "text": "who should I hire for a home addition in Reading MA",
+      "service": "addition",
+      "geo": "Reading",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-boston-hire",
+      "text": "who should I hire for a home addition in the Boston area",
+      "service": "addition",
+      "geo": "Boston",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-boston-best",
+      "text": "best design-build remodeling firms in the Boston area",
+      "service": "design-build",
+      "geo": "Boston",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-newton-best",
+      "text": "best design-build remodeling firms in Newton MA",
+      "service": "design-build",
+      "geo": "Newton",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-wellesley-best",
+      "text": "best design-build remodeling firms in Wellesley MA",
+      "service": "design-build",
+      "geo": "Wellesley",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-needham-best",
+      "text": "best design-build remodeling firms in Needham MA",
+      "service": "design-build",
+      "geo": "Needham",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-reading-best",
+      "text": "best design-build remodeling firms in Reading MA",
+      "service": "design-build",
+      "geo": "Reading",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-arlington-best",
+      "text": "best design-build remodeling firms in Arlington MA",
+      "service": "design-build",
+      "geo": "Arlington",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-belmont-hire",
+      "text": "who should I hire for a whole-house renovation in Belmont MA",
+      "service": "design-build",
+      "geo": "Belmont",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-weston-hire",
+      "text": "who should I hire for a whole-house renovation in Weston MA",
+      "service": "design-build",
+      "geo": "Weston",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "design-build-concord-hire",
+      "text": "who should I hire for a whole-house renovation in Concord MA",
+      "service": "design-build",
+      "geo": "Concord",
+      "intent": "hire",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-newton-cost",
+      "text": "how much does a kitchen remodel cost in Newton MA and which design-build firms do them",
+      "service": "kitchen",
+      "geo": "Newton",
+      "intent": "cost",
+      "tier": "breadth"
+    },
+    {
+      "id": "kitchen-waltham-cost",
+      "text": "how much does a kitchen remodel cost in Waltham MA and which design-build firms do them",
+      "service": "kitchen",
+      "geo": "Waltham",
+      "intent": "cost",
+      "tier": "breadth"
+    },
+    {
+      "id": "bath-wellesley-cost",
+      "text": "how much does a bathroom remodel cost in Wellesley MA and who are the best contractors",
+      "service": "bath",
+      "geo": "Wellesley",
+      "intent": "cost",
+      "tier": "breadth"
+    },
+    {
+      "id": "addition-needham-cost",
+      "text": "how much does a home addition cost in Needham MA and which firms should I consider",
+      "service": "addition",
+      "geo": "Needham",
+      "intent": "cost",
+      "tier": "breadth"
+    },
+    {
+      "id": "cabinetry-boston-best",
+      "text": "custom cabinetry and kitchen remodeling company in the Boston area",
+      "service": "cabinetry",
+      "geo": "Boston",
+      "intent": "best",
+      "tier": "breadth"
+    },
+    {
+      "id": "brand-good-firm",
+      "text": "Is Out of the Woods Construction & Cabinetry in Waltham a good design-build remodeling firm",
+      "service": "brand",
+      "geo": "n/a",
+      "intent": "brand",
+      "tier": "breadth"
+    }
+  ]
+}
