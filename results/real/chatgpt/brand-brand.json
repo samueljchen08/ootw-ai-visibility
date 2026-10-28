@@ -1,0 +1,6 @@
+{
+  "query_id": "brand-brand",
+  "engine": "chatgpt",
+  "status": "blocked",
+  "notes": "Not run: ChatGPT requires a signed-in session and none was available in the audit browser profile. Spot-check manually from a logged-in account."
+}

@@ -1,8 +1,40 @@
 [
- {"raw_path": "results/real/perplexity/kitchen-boston-best.raw.json", "out_path": "results/real/perplexity/kitchen-boston-best.json", "engine": "perplexity",
-  "firms": ["Feinmann", "New England Design & Construction", "Bay State Remodeling", "McGuire + Co. Kitchen & Bath"],
-  "notes": "Shortlist table of 4 firms; Feinmann, NEDC, Bay State lead. Sources: firm sites plus Houzz Boston kitchen-and-bath list."},
- {"raw_path": "results/real/perplexity/kitchen-newton-best.raw.json", "out_path": "results/real/perplexity/kitchen-newton-best.json", "engine": "perplexity",
-  "firms": ["Feinmann", "New England Design & Construction", "Kitchen Cornerstones", "Steveworks", "Tom Curren Companies"],
-  "notes": "Shortlist of 5; relies on firms' Newton portfolio/service pages, Home Builder Digest Newton list, and PRO New England member profile."}
+ {
+  "raw_path": "results/real/perplexity/kitchen-boston-best.raw.json",
+  "out_path": "results/real/perplexity/kitchen-boston-best.json",
+  "engine": "perplexity",
+  "firms": [
+   "Feinmann",
+   "New England Design & Construction",
+   "Bay State Remodeling",
+   "McGuire + Co. Kitchen & Bath"
+  ],
+  "notes": "Shortlist table of 4 firms; Feinmann, NEDC, Bay State lead. Sources: firm sites plus Houzz Boston kitchen-and-bath list."
+ },
+ {
+  "raw_path": "results/real/perplexity/kitchen-newton-best.raw.json",
+  "out_path": "results/real/perplexity/kitchen-newton-best.json",
+  "engine": "perplexity",
+  "firms": [
+   "Feinmann",
+   "New England Design & Construction",
+   "Kitchen Cornerstones",
+   "Steveworks",
+   "Tom Curren Companies"
+  ],
+  "notes": "Shortlist of 5; relies on firms' Newton portfolio/service pages, Home Builder Digest Newton list, and PRO New England member profile."
+ },
+ {
+  "raw_path": "results/real/perplexity/bath-wellesley-best.raw.json",
+  "out_path": "results/real/perplexity/bath-wellesley-best.json",
+  "engine": "perplexity",
+  "firms": [
+   "Prestige Kitchen & Bath",
+   "Tom Curren Companies",
+   "Refined Renovations",
+   "Essex Restoration",
+   "Jacuzzi Bath Remodel by Capital"
+  ],
+  "notes": "Five firms, all surfaced via their own Wellesley service-area pages; engine noted thin independent review evidence. Jacuzzi is a franchise installer named by the engine."
+ }
 ]
