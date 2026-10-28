@@ -1,0 +1,4 @@
+results/real/**/*.png
+__pycache__/
+.pytest_cache/
+report/report.html
