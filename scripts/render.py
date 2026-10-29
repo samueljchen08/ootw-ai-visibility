@@ -22,7 +22,7 @@ def to_html(md_text, title):
     return (f"<!doctype html><html><head><meta charset='utf-8'><title>{title}</title>"
             f"<style>{CSS}</style></head><body>{body}</body></html>")
 
-def main(src="report/report.md", out_html="report/report.html", out_pdf="report/report.pdf"):
+def main(src="report/report-full.md", out_html="report/report-full.html", out_pdf="report/report-full.pdf"):
     with open(src) as f:
         html = to_html(f.read(), "AI-Search Visibility Audit: Out of the Woods Construction")
     with open(out_html, "w") as f:

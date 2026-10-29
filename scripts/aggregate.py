@@ -184,7 +184,7 @@ def build_report(summary, queries, records, site, narrative_dir="report/narrativ
                 md += ["Sources: " + ", ".join(f"<{u}>" for u in r["sources_cited"]), ""]
     return "\n".join(md)
 
-def main(results_dir="results", out="report/report.md"):
+def main(results_dir="results", out="report/report-full.md"):
     with open("queries.json") as f:
         queries = json.load(f)["queries"]
     records = load_records(results_dir)
